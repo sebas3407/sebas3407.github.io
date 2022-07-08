@@ -4,7 +4,7 @@
     <script>
         function showText() {
             document.getElementById("demo").style.display = "block";
-            window.webkit.messageHandlers.jsHandler.postMessage("Testing");
+            window.webkit.messageHandlers.jsHandler.postMessage("PG5vdGU+Cjx0bz5Ub3ZlPC90bz4KPGZyb20+SmFuaTwvZnJvbT4KPC9ub3RlPg==");
         }
     </script>
 </head>
@@ -12,34 +12,5 @@
     <p id="demo">Hello World.</p>
     <input type="button" onclick="showText()" value="Show Text and Trigger Handler">
     <input type="button" onclick="hideText()" value="Hide Text">
-
-
-    <input type="file" />
-
-<script>
-    // Get a reference to the file input
-    const fileInput = document.querySelector('input');
-
-    // Listen for the change event so we can capture the file
-    fileInput.addEventListener('change', (e) => {
-        // Get a reference to the file
-        const file = e.target.files[0];
-
-        // Encode the file using the FileReader API
-        const reader = new FileReader();
-        reader.onloadend = () => {
-            // Use a regex to remove data url part
-            const base64String = reader.result
-                .replace('data:', '')
-                .replace(/^.+,/, '');
-
-            console.log(base64String);
-            // Logs wL2dvYWwgbW9yZ...
-        };
-        reader.readAsDataURL(file);
-    });
-</script>
 </body>
 </html>
-
-
