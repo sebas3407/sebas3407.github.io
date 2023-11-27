@@ -10,31 +10,39 @@
 
     <script>
 function solicitarPermisoNotificaciones() {
-    // Verificar si el navegador es Safari
-    const esSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    // Verificar si el navegador es Safari y si es un dispositivo iOS
+    const esSafariiOS = /^((?!chrome|android).)*safari/i.test(navigator.userAgent) && /iP(ad|od|hone)/i.test(navigator.userAgent);
 
-    if (!esSafari) {
+    if (!esSafariiOS) {
         alert('Este ejemplo está diseñado para Safari en iOS. Por favor, prueba en Safari en un dispositivo iOS.');
         return;
     }
 
-    // Verificar si el dispositivo es un iPhone o iPad
-    const esDispositivoiOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+    // Verificar si el navegador admite notificaciones
+    if (!('Notification' in window)) {
+        alert('Tu navegador no soporta notificaciones push.');
+        return;
+    }
 
+    // Verificar si los permisos de notificación ya han sido otorgados
+    if (Notification.permission === 'granted') {
+        alert('Ya tienes permisos de notificación.');
+        return;
+    }
 
-        Notification.requestPermission().then(function(permission) {
-            if (permission === 'granted') {
-                alert('¡Permisos de notificación concedidos!');
-            } else if (permission === 'denied') {
-                alert('Permisos de notificación denegados. Puedes cambiarlo en la configuración del navegador.');
-            }
-        });
-
+    // Solicitar permisos de notificación
+    Notification.requestPermission().then(function(permission) {
+        if (permission === 'granted') {
+            alert('¡Permisos de notificación concedidos!');
+        } else if (permission === 'denied') {
+            alert('Permisos de notificación denegados. Puedes cambiarlo en la configuración del navegador.');
+        }
+    });
 }
 </script>
 </head>
 <body>
-    <p id="demo">Hello World 27/11-4</p>
+    <p id="demo">Hello World 27/11-5</p>
     <input type="button" onclick="showText()" value="Show Text and Trigger Handler">
     <input type="button" onclick="hideText()" value="Hide Text">
     <br>
