@@ -9,40 +9,32 @@
     </script>
 
     <script>
-function solicitarPermisoNotificaciones() {
-    // Verificar si el navegador es Safari y si es un dispositivo iOS
-    const esSafariiOS = /^((?!chrome|android).)*safari/i.test(navigator.userAgent) && /iP(ad|od|hone)/i.test(navigator.userAgent);
+    </script>
 
-    if (!esSafariiOS) {
-        alert('Este ejemplo está diseñado para Safari en iOS. Por favor, prueba en Safari en un dispositivo iOS.');
-        return;
-    }
 
-    // Verificar si el navegador admite notificaciones
-    if (!('Notification' in window)) {
-        alert('Tu navegador no soporta notificaciones push.');
-        return;
-    }
+    <body>
+  <button class="show-notification-button">
+    Show Notification
+  </button>
 
-    // Verificar si los permisos de notificación ya han sido otorgados
-    if (Notification.permission === 'granted') {
-        alert('Ya tienes permisos de notificación.');
-        return;
-    }
+  <script>
+    const button = document.querySelector('.show-notification-button')
 
-    // Solicitar permisos de notificación
-    Notification.requestPermission().then(function(permission) {
-        if (permission === 'granted') {
-            alert('¡Permisos de notificación concedidos!');
-        } else if (permission === 'denied') {
-            alert('Permisos de notificación denegados. Puedes cambiarlo en la configuración del navegador.');
+    button.addEventListener('click', () => {
+      Notification.requestPermission().then((permissionResult) => {
+        if (permissionResult === 'granted') {
+          console.log('Can show notifications')
         }
-    });
-}
-</script>
+      })
+    })
+  </script>
+
+
+        
+</body>
 </head>
 <body>
-    <p id="demo">Hello World 27/11-5</p>
+    <p id="demo">Hello World 27/11-6</p>
     <input type="button" onclick="showText()" value="Show Text and Trigger Handler">
     <input type="button" onclick="hideText()" value="Hide Text">
     <br>
@@ -51,6 +43,29 @@ function solicitarPermisoNotificaciones() {
     <br>
     <br>
     <button onclick="solicitarPermisoNotificaciones()">Solicitar permiso de notificaciones</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  <button class="show-notification-button">
+    Show Notification
+  </button>
+
+  <script>
+    const button = document.querySelector('.show-notification-button')
+
+    button.addEventListener('click', () => {
+      Notification.requestPermission().then((permissionResult) => {
+        if (permissionResult === 'granted') {
+          console.log('Can show notifications')
+        }
+      })
+    })
+  </script>
+    
 
 </body>
 </html>
