@@ -21,11 +21,6 @@ function solicitarPermisoNotificaciones() {
     // Verificar si el dispositivo es un iPhone o iPad
     const esDispositivoiOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
 
-    // Solicitar permisos de notificación
-    if (esDispositivoiOS && Notification.permission !== 'granted') {
-        // En dispositivos iOS, se recomienda mostrar una explicación antes de solicitar permisos
-        alert('Para recibir notificaciones, por favor, habilita las notificaciones en la configuración de tu dispositivo.');
-    }
 
     if ('Notification' in window && 'requestPermission' in Notification) {
         Notification.requestPermission().then(function(permission) {
