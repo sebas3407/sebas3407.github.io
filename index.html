@@ -22,7 +22,6 @@ function solicitarPermisoNotificaciones() {
     const esDispositivoiOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
 
 
-    if ('Notification' in window && 'requestPermission' in Notification) {
         Notification.requestPermission().then(function(permission) {
             if (permission === 'granted') {
                 alert('¡Permisos de notificación concedidos!');
@@ -30,14 +29,12 @@ function solicitarPermisoNotificaciones() {
                 alert('Permisos de notificación denegados. Puedes cambiarlo en la configuración del navegador.');
             }
         });
-    } else {
-        alert('Tu navegador no soporta notificaciones push.');
-    }
+
 }
 </script>
 </head>
 <body>
-    <p id="demo">Hello World 27/11-3</p>
+    <p id="demo">Hello World 27/11-4</p>
     <input type="button" onclick="showText()" value="Show Text and Trigger Handler">
     <input type="button" onclick="hideText()" value="Hide Text">
     <br>
