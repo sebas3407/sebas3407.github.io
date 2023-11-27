@@ -10,16 +10,11 @@
 
     <script>
 function solicitarPermisoNotificaciones() {
-    if (!('Notification' in window)) {
-        alert('Tu navegador no soporta notificaciones push.');
-        return;
-    }
-
     // Verificar si el navegador es Safari
     const esSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
     if (!esSafari) {
-        alert('Este ejemplo está diseñado para Safari. Puedes probarlo en Safari en un dispositivo iOS o en tu Mac.');
+        alert('Este ejemplo está diseñado para Safari en iOS. Por favor, prueba en Safari en un dispositivo iOS.');
         return;
     }
 
@@ -27,23 +22,27 @@ function solicitarPermisoNotificaciones() {
     const esDispositivoiOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
 
     // Solicitar permisos de notificación
-    if (esDispositivoiOS) {
+    if (esDispositivoiOS && Notification.permission !== 'granted') {
         // En dispositivos iOS, se recomienda mostrar una explicación antes de solicitar permisos
         alert('Para recibir notificaciones, por favor, habilita las notificaciones en la configuración de tu dispositivo.');
     }
 
-    Notification.requestPermission().then(function(permission) {
-        if (permission === 'granted') {
-            alert('¡Permisos de notificación concedidos!');
-        } else if (permission === 'denied') {
-            alert('Permisos de notificación denegados. Puedes cambiarlo en la configuración del navegador.');
-        }
-    });
+    if ('Notification' in window && 'requestPermission' in Notification) {
+        Notification.requestPermission().then(function(permission) {
+            if (permission === 'granted') {
+                alert('¡Permisos de notificación concedidos!');
+            } else if (permission === 'denied') {
+                alert('Permisos de notificación denegados. Puedes cambiarlo en la configuración del navegador.');
+            }
+        });
+    } else {
+        alert('Tu navegador no soporta notificaciones push.');
+    }
 }
 </script>
 </head>
 <body>
-    <p id="demo">Hello World 27/11-1</p>
+    <p id="demo">Hello World 27/11-2</p>
     <input type="button" onclick="showText()" value="Show Text and Trigger Handler">
     <input type="button" onclick="hideText()" value="Hide Text">
     <br>
