@@ -17,24 +17,11 @@
     Show Notification
   </button>
 
-  <script>
-    const button = document.querySelector('.show-notification-button')
-
-    button.addEventListener('click', () => {
-      Notification.requestPermission().then((permissionResult) => {
-        if (permissionResult === 'granted') {
-          console.log('Can show notifications')
-        }
-      })
-    })
-  </script>
-
-
         
 </body>
 </head>
 <body>
-    <p id="demo">Hello World 27/11-6</p>
+    <p id="demo">Hello World 27/11-7</p>
     <input type="button" onclick="showText()" value="Show Text and Trigger Handler">
     <input type="button" onclick="hideText()" value="Hide Text">
     <br>
