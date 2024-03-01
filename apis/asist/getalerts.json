@@ -1,0 +1,52 @@
+{
+  "alerts": [
+    {
+      "user": {
+        "id": "u1",
+        "name": "John",
+        "surname1": "Doe",
+        "surname2": "Smith",
+        "phoneNumber": "123456789"
+      },
+      "userID": "1",
+      "type": "BEN",
+      "date": "2024-02-25",
+      "to": "John Doe",
+      "subtype": "weather",
+      "response": null,
+      "readed": false
+    },
+    {
+      "user": {
+        "id": "u2",
+        "name": "Jane",
+        "surname1": "Doe",
+        "surname2": "Johnson",
+        "phoneNumber": "987654321"
+      },
+      "userID": "2",
+      "type": "ERR",
+      "date": "2024-02-26",
+      "to": "Jane Doe",
+      "subtype": "fire",
+      "response": "Evacuate immediately",
+      "readed": false
+    },
+    {
+      "user": {
+        "id": "u3",
+        "name": "Alice",
+        "surname1": "Wonder",
+        "surname2": "Land",
+        "phoneNumber": "555555555"
+      },
+      "userID": "3",
+      "type": "INFO",
+      "date": "2024-02-27",
+      "to": null,
+      "subtype": null,
+      "response": "Some informative message",
+      "readed": true
+    }
+  ]
+}
