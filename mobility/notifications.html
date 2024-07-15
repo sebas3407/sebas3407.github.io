@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificaciones Locales en Safari</title>
+</head>
+<body>
+    <h1>Notificaciones Locales en Safari</h1>
+    <button id="request-permission">Solicitar Permiso</button>
+    <button id="send-notification">Enviar Notificación</button>
+    <div id="result" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc;"></div>
+
+    <script>
+        // Función para imprimir mensajes en el cuadro de texto de resultados
+        function printResult(message) {
+            const resultDiv = document.getElementById('result');
+            const messageParagraph = document.createElement('p');
+            messageParagraph.textContent = message;
+            resultDiv.appendChild(messageParagraph);
+        }
+
+        // Función para solicitar permiso para las notificaciones
+        function requestPermission() {
+            Notification.requestPermission().then(permission => {
+                if (permission === 'granted') {
+                    printResult('Permiso concedido para notificaciones.');
+                } else if (permission === 'denied') {
+                    printResult('Permiso denegado para notificaciones.');
+                } else {
+                    printResult('Permiso para notificaciones no decidido.');
+                }
+            }).catch(error => {
+                printResult('Error al solicitar permiso: ' + error);
+            });
+        }
+
+        // Función para enviar una notificación local
+        function sendNotification() {
+            if (Notification.permission === 'granted') {
+                const options = {
+                    body: 'Esta es una notificación de prueba.',
+                    icon: 'icon.png', // Ruta a un icono opcional
+                    tag: 'test-notification' // Tag opcional para agrupar notificaciones
+                };
+                try {
+                    const notification = new Notification('Hola!', options);
+
+                    notification.onclick = function(event) {
+                        event.preventDefault(); // Evita la acción por defecto del navegador
+                        window.open('https://example.com'); // Abre una URL al hacer clic en la notificación
+                    };
+
+                    printResult('Notificación enviada.');
+                } catch (error) {
+                    printResult('Error al enviar notificación: ' + error);
+                }
+            } else {
+                printResult('El permiso para enviar notificaciones no ha sido concedido.');
+            }
+        }
+
+        // Event listeners para los botones
+        document.getElementById('request-permission').addEventListener('click', requestPermission);
+        document.getElementById('send-notification').addEventListener('click', sendNotification);
+    </script>
+</body>
+</html>
