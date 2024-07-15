@@ -68,7 +68,9 @@
                 const options = {
                     body: 'Esta es una notificación de prueba.',
                     icon: 'icon.png', // Ruta a un icono opcional
-                    tag: 'test-notification' // Tag opcional para agrupar notificaciones
+                    tag: 'test-notification', // Tag opcional para agrupar notificaciones
+                    renotify: true, // Forzar renotificación si ya existe una con el mismo tag
+                    silent: false // Asegurarse de que la notificación no está en modo silencioso
                 };
                 try {
                     const notification = new Notification('Hola!', options);
