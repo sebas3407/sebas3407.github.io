@@ -10,38 +10,57 @@
 
 </head>
 <body>
-    <p id="demo">Hello World 27/11-7</p>
-    <input type="button" onclick="showText()" value="Show Text and Trigger Handler">
-    <input type="button" onclick="hideText()" value="Hide Text">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <button onclick="solicitarPermisoNotificaciones()">Solicitar permiso de notificaciones</button>
+  <p id="demo">Hello World 27/11-7</p>
+  <input type="button" onclick="showText()" value="Show Text and Trigger Handler">
+  <input type="button" onclick="hideText()" value="Hide Text">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <button onclick="solicitarPermisoNotificaciones()">Solicitar permiso de notificaciones</button>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
   <button class="show-notification-button">
-    Show Notification
-  </button>
+      Show Notification
+    </button>
 
   <script>
-    const button = document.querySelector('.show-notification-button')
+      // Función para solicitar permiso de notificaciones
+      function solicitarPermisoNotificaciones() {
+          Notification.requestPermission().then((permissionResult) => {
+              if (permissionResult === 'granted') {
+                  console.log('Permiso de notificaciones concedido');
+              } else {
+                  console.log('Permiso de notificaciones denegado');
+              }
+          });
+      }
 
-    button.addEventListener('click', () => {
-      Notification.requestPermission().then((permissionResult) => {
-        if (permissionResult === 'granted') {
-          console.log('Can show notifications')
-        }
-      })
-    })
+      // Event listener para mostrar notificación
+      const button = document.querySelector('.show-notification-button');
+      button.addEventListener('click', () => {
+          Notification.requestPermission().then((permissionResult) => {
+              if (permissionResult === 'granted') {
+                  new Notification('Hello World');
+              }
+          });
+      });
+
+      // Funciones de ejemplo para mostrar y ocultar texto
+      function showText() {
+          document.getElementById("demo").style.display = "block";
+      }
+
+      function hideText() {
+          document.getElementById("demo").style.display = "none";
+      }
   </script>
-    
-
 </body>
+
 </html>
