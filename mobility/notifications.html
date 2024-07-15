@@ -69,9 +69,11 @@
                     body: 'Esta es una notificación de prueba.'
                 };
                 try {
-                    const notification = new Notification('Hola!', options);
+                    const notification = new Notification('Notificacion de prueba!', options);
                     console.log('Notificación creada:', notification);
-                    printLog('log-notification', 'Notificación creada: ' + JSON.stringify(notification));
+                  //  printLog('log-notification', 'Notificación creada: ' + JSON.stringify(notification));
+                    printLog('log-notification', 'Notificación creada: correctamente ' + notification);
+
 
                     notification.onclick = function(event) {
                         event.preventDefault(); // Evita la acción por defecto del navegador
@@ -79,7 +81,7 @@
                         printLog('log-notification', 'Notificación clicada y se abrió https://example.com');
                     };
 
-                    printLog('log-notification', 'Notificación enviada correcttamente.');
+                    printLog('log-notification', 'Notificación enviada.');
                 } catch (error) {
                     printLog('log-errors', 'Error al enviar notificación: ' + error);
                     console.error('Error al enviar notificación:', error);
