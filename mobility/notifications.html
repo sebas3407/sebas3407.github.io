@@ -25,7 +25,9 @@
 
         // Función para solicitar permiso para las notificaciones
         function requestPermission() {
+            console.log('Solicitando permiso para notificaciones...');
             Notification.requestPermission().then(permission => {
+                console.log('Resultado del permiso:', permission);
                 if (permission === 'granted') {
                     printResult('Permiso concedido para notificaciones.');
                 } else if (permission === 'denied') {
@@ -35,11 +37,13 @@
                 }
             }).catch(error => {
                 printResult('Error al solicitar permiso: ' + error);
+                console.error('Error al solicitar permiso:', error);
             });
         }
 
         // Función para enviar una notificación local
         function sendNotification() {
+            console.log('Intentando enviar notificación...');
             if (Notification.permission === 'granted') {
                 const options = {
                     body: 'Esta es una notificación de prueba.',
@@ -48,24 +52,34 @@
                 };
                 try {
                     const notification = new Notification('Hola!', options);
+                    console.log('Notificación creada:', notification);
 
                     notification.onclick = function(event) {
                         event.preventDefault(); // Evita la acción por defecto del navegador
                         window.open('https://example.com'); // Abre una URL al hacer clic en la notificación
                     };
 
-                    printResult('Notificación enviada.');
+                    printResult('Notificación enviada correctamente.');
                 } catch (error) {
                     printResult('Error al enviar notificación: ' + error);
+                    console.error('Error al enviar notificación:', error);
                 }
             } else {
                 printResult('El permiso para enviar notificaciones no ha sido concedido.');
+                console.log('El permiso para enviar notificaciones no ha sido concedido.');
             }
         }
 
         // Event listeners para los botones
         document.getElementById('request-permission').addEventListener('click', requestPermission);
         document.getElementById('send-notification').addEventListener('click', sendNotification);
+
+        // Verificar si estamos en modo de Web App
+        if (window.navigator.standalone) {
+            console.log('Estamos en modo de Web App.');
+        } else {
+            console.log('No estamos en modo de Web App.');
+        }
     </script>
 </body>
 </html>
