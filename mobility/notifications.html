@@ -7,36 +7,55 @@
     <link rel="apple-touch-icon" href="icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <style>
+        #logs {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .log-entry {
+            border-bottom: 1px solid #ddd;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
     <h1>Notificaciones Locales en Safari</h1>
     <button id="request-permission">Solicitar Permiso</button>
     <button id="send-notification">Enviar Notificación</button>
-    <div id="result" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc;"></div>
+    <div id="logs">
+        <h2>Logs:</h2>
+        <div id="log-permission"></div>
+        <div id="log-notification"></div>
+        <div id="log-errors"></div>
+    </div>
 
     <script>
-        // Función para imprimir mensajes en el cuadro de texto de resultados
-        function printResult(message) {
-            const resultDiv = document.getElementById('result');
+        // Función para imprimir mensajes en los campos de texto de logs
+        function printLog(id, message) {
+            const logDiv = document.getElementById(id);
             const messageParagraph = document.createElement('p');
+            messageParagraph.className = 'log-entry';
             messageParagraph.textContent = message;
-            resultDiv.appendChild(messageParagraph);
+            logDiv.appendChild(messageParagraph);
         }
 
         // Función para solicitar permiso para las notificaciones
         function requestPermission() {
             console.log('Solicitando permiso para notificaciones...');
+            printLog('log-permission', 'Solicitando permiso para notificaciones...');
             Notification.requestPermission().then(permission => {
                 console.log('Resultado del permiso:', permission);
+                printLog('log-permission', 'Resultado del permiso: ' + permission);
                 if (permission === 'granted') {
-                    printResult('Permiso concedido para notificaciones.');
+                    printLog('log-permission', 'Permiso concedido para notificaciones.');
                 } else if (permission === 'denied') {
-                    printResult('Permiso denegado para notificaciones.');
+                    printLog('log-permission', 'Permiso denegado para notificaciones.');
                 } else {
-                    printResult('Permiso para notificaciones no decidido.');
+                    printLog('log-permission', 'Permiso para notificaciones no decidido.');
                 }
             }).catch(error => {
-                printResult('Error al solicitar permiso: ' + error);
+                printLog('log-errors', 'Error al solicitar permiso: ' + error);
                 console.error('Error al solicitar permiso:', error);
             });
         }
@@ -44,6 +63,7 @@
         // Función para enviar una notificación local
         function sendNotification() {
             console.log('Intentando enviar notificación...');
+            printLog('log-notification', 'Intentando enviar notificación...');
             if (Notification.permission === 'granted') {
                 const options = {
                     body: 'Esta es una notificación de prueba.',
@@ -53,19 +73,21 @@
                 try {
                     const notification = new Notification('Hola!', options);
                     console.log('Notificación creada:', notification);
+                    printLog('log-notification', 'Notificación creada: ' + JSON.stringify(notification));
 
                     notification.onclick = function(event) {
                         event.preventDefault(); // Evita la acción por defecto del navegador
                         window.open('https://example.com'); // Abre una URL al hacer clic en la notificación
+                        printLog('log-notification', 'Notificación clicada y se abrió https://example.com');
                     };
 
-                    printResult('Notificación enviada correctamente.');
+                    printLog('log-notification', 'Notificación enviada.');
                 } catch (error) {
-                    printResult('Error al enviar notificación: ' + error);
+                    printLog('log-errors', 'Error al enviar notificación: ' + error);
                     console.error('Error al enviar notificación:', error);
                 }
             } else {
-                printResult('El permiso para enviar notificaciones no ha sido concedido.');
+                printLog('log-notification', 'El permiso para enviar notificaciones no ha sido concedido.');
                 console.log('El permiso para enviar notificaciones no ha sido concedido.');
             }
         }
@@ -77,9 +99,26 @@
         // Verificar si estamos en modo de Web App
         if (window.navigator.standalone) {
             console.log('Estamos en modo de Web App.');
+            printLog('log-notification', 'Estamos en modo de Web App.');
         } else {
             console.log('No estamos en modo de Web App.');
+            printLog('log-notification', 'No estamos en modo de Web App.');
         }
+
+        // Función para verificar el estado del permiso al cargar la página
+        function checkPermission() {
+            const permissionStatus = Notification.permission;
+            if (permissionStatus === 'granted') {
+                printLog('log-permission', 'Permiso para notificaciones ya concedido.');
+            } else if (permissionStatus === 'denied') {
+                printLog('log-permission', 'Permiso para notificaciones ya denegado.');
+            } else {
+                printLog('log-permission', 'Permiso para notificaciones no decidido.');
+            }
+        }
+
+        // Llamar a la función de verificación al cargar la página
+        checkPermission();
     </script>
 </body>
 </html>
