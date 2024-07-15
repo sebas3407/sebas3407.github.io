@@ -66,9 +66,7 @@
             printLog('log-notification', 'Intentando enviar notificación...');
             if (Notification.permission === 'granted') {
                 const options = {
-                    body: 'Esta es una notificación de prueba.',
-                    icon: 'icon.png', // Ruta a un icono opcional
-                    tag: 'test-notification' // Tag opcional para agrupar notificaciones
+                    body: 'Esta es una notificación de prueba.'
                 };
                 try {
                     const notification = new Notification('Hola!', options);
@@ -81,7 +79,7 @@
                         printLog('log-notification', 'Notificación clicada y se abrió https://example.com');
                     };
 
-                    printLog('log-notification', 'Notificación enviada.');
+                    printLog('log-notification', 'Notificación enviada correcttamente.');
                 } catch (error) {
                     printLog('log-errors', 'Error al enviar notificación: ' + error);
                     console.error('Error al enviar notificación:', error);
