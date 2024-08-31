@@ -261,7 +261,7 @@
     "code2Digits": "VA",
     "phonePrefix": "+39",
     "countryName": "Ciudad Vaticano",
-    "code3Digits": "AT"
+    "code3Digits": "VAT"
   },
   {
     "code2Digits": "CO",
@@ -405,7 +405,7 @@
     "code2Digits": "RU",
     "phonePrefix": "+7",
     "countryName": "FederaciÃ³n Rusa",
-    "code3Digits": ""
+    "code3Digits": "RUS"
   },
   {
     "code2Digits": "PH",
@@ -699,7 +699,7 @@
     "code2Digits": "PN",
     "phonePrefix": "",
     "countryName": "Islas Pitcairn",
-    "code3Digits": ""
+    "code3Digits": "PCN"
   },
   {
     "code2Digits": "SB",
@@ -1035,7 +1035,7 @@
     "code2Digits": "OM",
     "phonePrefix": "+968",
     "countryName": "OmÃ¡n",
-    "code3Digits": ""
+    "code3Digits": "OMN"
   },
   {
     "code2Digits": "NL",
@@ -1047,49 +1047,49 @@
     "code2Digits": "PK",
     "phonePrefix": "+92",
     "countryName": "PakistÃ¡n",
-    "code3Digits": ""
+    "code3Digits": "PAK"
   },
   {
     "code2Digits": "PW",
     "phonePrefix": "+680",
     "countryName": "Palaos",
-    "code3Digits": ""
+    "code3Digits": "PLW"
   },
   {
     "code2Digits": "PS",
     "phonePrefix": "+970",
     "countryName": "Palestina",
-    "code3Digits": ""
+    "code3Digits": "PSE"
   },
   {
     "code2Digits": "PA",
     "phonePrefix": "+507",
     "countryName": "PanamÃ¡",
-    "code3Digits": ""
+    "code3Digits": "PAN"
   },
   {
     "code2Digits": "PG",
     "phonePrefix": "+675",
     "countryName": "Papua Nueva Guinea",
-    "code3Digits": ""
+    "code3Digits": "PNG"
   },
   {
     "code2Digits": "PY",
     "phonePrefix": "+595",
     "countryName": "Paraguay",
-    "code3Digits": ""
+    "code3Digits": "PRY"
   },
   {
     "code2Digits": "PE",
     "phonePrefix": "+51",
     "countryName": "PerÃº",
-    "code3Digits": ""
+    "code3Digits": "PER"
   },
   {
     "code2Digits": "PF",
     "phonePrefix": "+689",
     "countryName": "Polinesia Francesa",
-    "code3Digits": ""
+    "code3Digits": "PYF"
   },
   {
     "code2Digits": "PL",
@@ -1107,7 +1107,7 @@
     "code2Digits": "PR",
     "phonePrefix": "+1",
     "countryName": "Puerto Rico",
-    "code3Digits": ""
+    "code3Digits": "PRI"
   },
   {
     "code2Digits": "QA",
@@ -1125,13 +1125,13 @@
     "code2Digits": "DO",
     "phonePrefix": "+1",
     "countryName": "RepÃºblica Dominicana",
-    "code3Digits": ""
+    "code3Digits": "DOM"
   },
   {
     "code2Digits": "CF",
     "phonePrefix": "+236",
     "countryName": "RepÃºblica Centroafricana",
-    "code3Digits": ""
+    "code3Digits": "CAF"
   },
   {
     "code2Digits": "CZ",
@@ -1155,13 +1155,13 @@
     "code2Digits": "RE",
     "phonePrefix": "+262",
     "countryName": "ReuniÃ³n",
-    "code3Digits": ""
+    "code3Digits": "REU"
   },
   {
     "code2Digits": "RW",
     "phonePrefix": "+250",
     "countryName": "Ruanda",
-    "code3Digits": ""
+    "code3Digits": "RWA"
   },
   {
     "code2Digits": "RO",
@@ -1173,37 +1173,37 @@
     "code2Digits": "KN",
     "phonePrefix": "+1869",
     "countryName": "San CristÃ³bal y Nieves",
-    "code3Digits": ""
+    "code3Digits": "KNA"
   },
   {
     "code2Digits": "PM",
     "phonePrefix": "+508",
     "countryName": "San Pedro y MiquelÃ³n",
-    "code3Digits": ""
+    "code3Digits": "SPM"
   },
   {
     "code2Digits": "ST",
     "phonePrefix": "+239",
     "countryName": "Santo TomÃ© y PrÃ­ncipe",
-    "code3Digits": ""
+    "code3Digits": "STP"
   },
   {
     "code2Digits": "EH",
     "phonePrefix": "+212",
     "countryName": "SÃ¡hara occidental",
-    "code3Digits": ""
+    "code3Digits": "ESH"
   },
   {
     "code2Digits": "AS",
     "phonePrefix": "+1684",
     "countryName": "Samoa americana",
-    "code3Digits": ""
+    "code3Digits": "ASM"
   },
   {
     "code2Digits": "WS",
     "phonePrefix": "+685",
     "countryName": "Samoa Occidental",
-    "code3Digits": ""
+    "code3Digits": "WSM"
   },
   {
     "code2Digits": "SM",
@@ -1215,37 +1215,37 @@
     "code2Digits": "MF",
     "phonePrefix": "+590",
     "countryName": "San MartÃ­n",
-    "code3Digits": ""
+    "code3Digits": "MAF"
   },
   {
     "code2Digits": "VC",
     "phonePrefix": "+1784",
     "countryName": "San Vicente",
-    "code3Digits": ""
+    "code3Digits": "VCT"
   },
   {
     "code2Digits": "SH",
     "phonePrefix": "",
     "countryName": "Santa Helena",
-    "code3Digits": ""
+    "code3Digits": "SHN"
   },
   {
     "code2Digits": "LC",
     "phonePrefix": "+1758",
     "countryName": "Santa LucÃ­a",
-    "code3Digits": ""
+    "code3Digits": "LCA"
   },
   {
     "code2Digits": "SN",
     "phonePrefix": "+221",
     "countryName": "Senegal",
-    "code3Digits": ""
+    "code3Digits": "SEN"
   },
   {
     "code2Digits": "RS",
     "phonePrefix": "+381",
     "countryName": "Serbia",
-    "code3Digits": ""
+    "code3Digits": "SRB"
   },
   {
     "code2Digits": "CS",
@@ -1257,43 +1257,43 @@
     "code2Digits": "SC",
     "phonePrefix": "+248",
     "countryName": "Seychelles",
-    "code3Digits": ""
+    "code3Digits": "SYC"
   },
   {
     "code2Digits": "SL",
     "phonePrefix": "+232",
     "countryName": "Sierra Leona",
-    "code3Digits": ""
+    "code3Digits": "SLE"
   },
   {
     "code2Digits": "SG",
     "phonePrefix": "+65",
     "countryName": "Singapur",
-    "code3Digits": ""
+    "code3Digits": "SGP"
   },
   {
     "code2Digits": "SX",
     "phonePrefix": "+1721",
     "countryName": "Sint Maarten",
-    "code3Digits": ""
+    "code3Digits": "SXM"
   },
   {
     "code2Digits": "SY",
     "phonePrefix": "+963",
     "countryName": "Siria",
-    "code3Digits": ""
+    "code3Digits": "SYR"
   },
   {
     "code2Digits": "SO",
     "phonePrefix": "+252",
     "countryName": "Somalia",
-    "code3Digits": ""
+    "code3Digits": "SOM"
   },
   {
     "code2Digits": "LK",
     "phonePrefix": "+94",
     "countryName": "Sri Lanka",
-    "code3Digits": ""
+    "code3Digits": "LKA"
   },
   {
     "code2Digits": "SZ",
