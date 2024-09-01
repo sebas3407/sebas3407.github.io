@@ -1,6 +1,6 @@
 [
     {
-        "code2Digits": "",
+        "code2Digits": "AD",
         "phonePrefix": "+376",
         "countryName": "Andorra",
         "code3Digits": "AND"
@@ -8,7 +8,7 @@
     {
         "code2Digits": "AF",
         "phonePrefix": "+93",
-        "countryName": "Afganistán",
+        "countryName": "Afghanistan",
         "code3Digits": "AFG"
     },
     {
@@ -16,12 +16,6 @@
         "phonePrefix": "+355",
         "countryName": "Albania",
         "code3Digits": "ALB"
-    },
-    {
-        "code2Digits": "DE",
-        "phonePrefix": "+49",
-        "countryName": "Alemania",
-        "code3Digits": "DEU"
     },
     {
         "code2Digits": "AO",
@@ -38,7 +32,7 @@
     {
         "code2Digits": "AQ",
         "phonePrefix": "",
-        "countryName": "Antártida",
+        "countryName": "Antarctica",
         "code3Digits": "ATA"
     },
     {
@@ -46,12 +40,6 @@
         "phonePrefix": "+1268",
         "countryName": "Antigua/Barbuda",
         "code3Digits": "ATG"
-    },
-    {
-        "code2Digits": "SA",
-        "phonePrefix": "+966",
-        "countryName": "Arabia Saudí",
-        "code3Digits": "SAU"
     },
     {
         "code2Digits": "DZ",
@@ -92,7 +80,7 @@
     {
         "code2Digits": "AZ",
         "phonePrefix": "+994",
-        "countryName": "Azerbaiyán",
+        "countryName": "Azerbaijan",
         "code3Digits": "AZE"
     },
     {
@@ -104,7 +92,7 @@
     {
         "code2Digits": "BH",
         "phonePrefix": "+973",
-        "countryName": "Bahráin",
+        "countryName": "Bahrain",
         "code3Digits": "BHR"
     },
     {
@@ -122,19 +110,19 @@
     {
         "code2Digits": "BE",
         "phonePrefix": "+32",
-        "countryName": "Bélgica",
+        "countryName": "Belgium",
         "code3Digits": "BEL"
     },
     {
         "code2Digits": "BZ",
         "phonePrefix": "+501",
-        "countryName": "Belice",
+        "countryName": "Belize",
         "code3Digits": "BLZ"
     },
     {
         "code2Digits": "BJ",
         "phonePrefix": "+229",
-        "countryName": "Benín",
+        "countryName": "Benin",
         "code3Digits": "BEN"
     },
     {
@@ -146,7 +134,7 @@
     {
         "code2Digits": "BY",
         "phonePrefix": "+375",
-        "countryName": "Bielorrusia",
+        "countryName": "Belarus",
         "code3Digits": "BLR"
     },
     {
@@ -158,31 +146,43 @@
     {
         "code2Digits": "BQ",
         "phonePrefix": "+599",
-        "countryName": "Bonaire Saba",
+        "countryName": "Bonaire, Saba",
         "code3Digits": "BES"
     },
     {
         "code2Digits": "BA",
         "phonePrefix": "+387",
-        "countryName": "Bosnia y Herzegovina",
+        "countryName": "Bosnia and Herzegowina",
         "code3Digits": "BIH"
     },
     {
         "code2Digits": "BW",
         "phonePrefix": "+267",
-        "countryName": "Botsuana",
+        "countryName": "Botswana",
         "code3Digits": "BWA"
+    },
+    {
+        "code2Digits": "BT",
+        "phonePrefix": "+975",
+        "countryName": "Bhutan",
+        "code3Digits": "BTN"
     },
     {
         "code2Digits": "BR",
         "phonePrefix": "+55",
-        "countryName": "Brasil",
+        "countryName": "Brazil",
         "code3Digits": "BRA"
+    },
+    {
+        "code2Digits": "IO",
+        "phonePrefix": "+246",
+        "countryName": "British Indian Ocean Territory",
+        "code3Digits": "IOT"
     },
     {
         "code2Digits": "BN",
         "phonePrefix": "+673",
-        "countryName": "Brunéi",
+        "countryName": "Brunei Darussalam",
         "code3Digits": "BRN"
     },
     {
@@ -204,33 +204,27 @@
         "code3Digits": "BDI"
     },
     {
-        "code2Digits": "BT",
-        "phonePrefix": "+975",
-        "countryName": "Bután",
-        "code3Digits": "BTN"
-    },
-    {
         "code2Digits": "CV",
         "phonePrefix": "+238",
-        "countryName": "Cabo Verde",
+        "countryName": "Cape Verde",
         "code3Digits": "CPV"
     },
     {
         "code2Digits": "KH",
         "phonePrefix": "+855",
-        "countryName": "Camboya",
+        "countryName": "Cambodia",
         "code3Digits": "KHM"
     },
     {
         "code2Digits": "CM",
         "phonePrefix": "+237",
-        "countryName": "Camerún",
+        "countryName": "Cameroon",
         "code3Digits": "CMR"
     },
     {
         "code2Digits": "CA",
         "phonePrefix": "+1",
-        "countryName": "Canadá",
+        "countryName": "Canada",
         "code3Digits": "CAN"
     },
     {
@@ -254,14 +248,8 @@
     {
         "code2Digits": "CY",
         "phonePrefix": "+357",
-        "countryName": "Chipre",
+        "countryName": "Cyprus",
         "code3Digits": "CYP"
-    },
-    {
-        "code2Digits": "VA",
-        "phonePrefix": "+39",
-        "countryName": "Ciudad Vaticano",
-        "code3Digits": "VAT"
     },
     {
         "code2Digits": "CO",
@@ -272,25 +260,13 @@
     {
         "code2Digits": "KM",
         "phonePrefix": "+269",
-        "countryName": "Comoras",
+        "countryName": "Comoros",
         "code3Digits": "COM"
-    },
-    {
-        "code2Digits": "KP",
-        "phonePrefix": "+850",
-        "countryName": "Corea del Norte",
-        "code3Digits": "PRK"
-    },
-    {
-        "code2Digits": "KR",
-        "phonePrefix": "+82",
-        "countryName": "Corea del Sur",
-        "code3Digits": "KOR"
     },
     {
         "code2Digits": "CI",
         "phonePrefix": "+225",
-        "countryName": "Costa de Marfil",
+        "countryName": "Cote DIvoire",
         "code3Digits": "CIV"
     },
     {
@@ -302,7 +278,7 @@
     {
         "code2Digits": "HR",
         "phonePrefix": "+385",
-        "countryName": "Croacia",
+        "countryName": "Croatia",
         "code3Digits": "HRV"
     },
     {
@@ -320,13 +296,13 @@
     {
         "code2Digits": "MH",
         "phonePrefix": "+692",
-        "countryName": "Islas Marshall",
+        "countryName": "Marshall Islands",
         "code3Digits": "MHL"
     },
     {
         "code2Digits": "DK",
         "phonePrefix": "+45",
-        "countryName": "Dinamarca",
+        "countryName": "Denmark",
         "code3Digits": "DNK"
     },
     {
@@ -342,15 +318,9 @@
         "code3Digits": "ECU"
     },
     {
-        "code2Digits": "US",
-        "phonePrefix": "+1",
-        "countryName": "Estados Unidos de América",
-        "code3Digits": "USA"
-    },
-    {
         "code2Digits": "EG",
         "phonePrefix": "+20",
-        "countryName": "Egipto",
+        "countryName": "Egypt",
         "code3Digits": "EGY"
     },
     {
@@ -360,34 +330,16 @@
         "code3Digits": "SLV"
     },
     {
-        "code2Digits": "AE",
-        "phonePrefix": "+971",
-        "countryName": "Emiratos Árabes Unidos",
-        "code3Digits": "ARE"
-    },
-    {
         "code2Digits": "ER",
         "phonePrefix": "+291",
         "countryName": "Eritrea",
         "code3Digits": "ERI"
     },
     {
-        "code2Digits": "SK",
-        "phonePrefix": "+421",
-        "countryName": "Eslovaquia",
-        "code3Digits": "SVK"
-    },
-    {
         "code2Digits": "SI",
         "phonePrefix": "+386",
         "countryName": "Eslovenia",
         "code3Digits": "SVN"
-    },
-    {
-        "code2Digits": "ES",
-        "phonePrefix": "+34",
-        "countryName": "España",
-        "code3Digits": "ESP"
     },
     {
         "code2Digits": "EE",
@@ -398,20 +350,8 @@
     {
         "code2Digits": "ET",
         "phonePrefix": "+251",
-        "countryName": "Etiopía",
+        "countryName": "Ethiopia",
         "code3Digits": "ETH"
-    },
-    {
-        "code2Digits": "RU",
-        "phonePrefix": "+7",
-        "countryName": "Federación Rusa",
-        "code3Digits": "RUS"
-    },
-    {
-        "code2Digits": "PH",
-        "phonePrefix": "+63",
-        "countryName": "Filipinas",
-        "code3Digits": "PHL"
     },
     {
         "code2Digits": "FI",
@@ -422,25 +362,37 @@
     {
         "code2Digits": "FJ",
         "phonePrefix": "+679",
-        "countryName": "Fiyi",
+        "countryName": "Fiji",
         "code3Digits": "FJI"
     },
     {
         "code2Digits": "FR",
         "phonePrefix": "+33",
-        "countryName": "Francia",
+        "countryName": "France",
         "code3Digits": "FRA"
+    },
+    {
+        "code2Digits": "GF",
+        "phonePrefix": "+594",
+        "countryName": "French Guiana",
+        "code3Digits": "GUF"
+    },
+    {
+        "code2Digits": "PF",
+        "phonePrefix": "+689",
+        "countryName": "French Polynesia",
+        "code3Digits": "PYF"
     },
     {
         "code2Digits": "TF",
         "phonePrefix": "",
-        "countryName": "Tierras Australes y Antárticas Francesas",
+        "countryName": "French Southern Territories",
         "code3Digits": "ATF"
     },
     {
         "code2Digits": "GA",
         "phonePrefix": "+241",
-        "countryName": "Gabón",
+        "countryName": "Gabon",
         "code3Digits": "GAB"
     },
     {
@@ -454,6 +406,12 @@
         "phonePrefix": "+995",
         "countryName": "Georgia",
         "code3Digits": "GEO"
+    },
+    {
+        "code2Digits": "DE",
+        "phonePrefix": "+49",
+        "countryName": "Germany",
+        "code3Digits": "DEU"
     },
     {
         "code2Digits": "GH",
@@ -470,31 +428,31 @@
     {
         "code2Digits": "GD",
         "phonePrefix": "+1473",
-        "countryName": "Granada",
+        "countryName": "Grenada",
         "code3Digits": "GRD"
     },
     {
         "code2Digits": "GR",
         "phonePrefix": "+30",
-        "countryName": "Grecia",
+        "countryName": "Greece",
         "code3Digits": "GRC"
     },
     {
         "code2Digits": "GL",
         "phonePrefix": "+299",
-        "countryName": "Groenlandia",
+        "countryName": "Greenland",
         "code3Digits": "GRL"
     },
     {
         "code2Digits": "GP",
         "phonePrefix": "+590",
-        "countryName": "Guadalupe",
+        "countryName": "Guadeloupe",
         "code3Digits": "GLP"
     },
     {
         "code2Digits": "GU",
         "phonePrefix": "+1671",
-        "countryName": "Islas Guam",
+        "countryName": "Guam Island",
         "code3Digits": "GUM"
     },
     {
@@ -502,12 +460,6 @@
         "phonePrefix": "+502",
         "countryName": "Guatemala",
         "code3Digits": "GTM"
-    },
-    {
-        "code2Digits": "GF",
-        "phonePrefix": "+594",
-        "countryName": "Guayana Francesa",
-        "code3Digits": "GUF"
     },
     {
         "code2Digits": "GG",
@@ -524,7 +476,7 @@
     {
         "code2Digits": "GQ",
         "phonePrefix": "+240",
-        "countryName": "Guinea Ecuator",
+        "countryName": "Equatorial Guinea",
         "code3Digits": "GNQ"
     },
     {
@@ -542,7 +494,7 @@
     {
         "code2Digits": "HT",
         "phonePrefix": "+509",
-        "countryName": "Haití",
+        "countryName": "Haiti",
         "code3Digits": "HTI"
     },
     {
@@ -560,7 +512,7 @@
     {
         "code2Digits": "HU",
         "phonePrefix": "+36",
-        "countryName": "Hungría",
+        "countryName": "Hungary",
         "code3Digits": "HUN"
     },
     {
@@ -578,7 +530,7 @@
     {
         "code2Digits": "IR",
         "phonePrefix": "+98",
-        "countryName": "Irán",
+        "countryName": "Iran",
         "code3Digits": "IRN"
     },
     {
@@ -590,146 +542,128 @@
     {
         "code2Digits": "IE",
         "phonePrefix": "+353",
-        "countryName": "Irlanda",
+        "countryName": "Ireland",
         "code3Digits": "IRL"
     },
     {
         "code2Digits": "HM",
         "phonePrefix": "",
-        "countryName": "Islas Heard y McDonald",
+        "countryName": "Heard and McDonald Islands",
         "code3Digits": "HMD"
     },
     {
         "code2Digits": "MP",
         "phonePrefix": "+1670",
-        "countryName": "Islas Marianas N",
+        "countryName": "Northern Mariana Islands",
         "code3Digits": "MNP"
     },
     {
         "code2Digits": "MU",
         "phonePrefix": "+230",
-        "countryName": "Isla Mauricio",
-        "code3Digits": ""
+        "countryName": "Mauritius",
+        "code3Digits": "MUS"
     },
     {
         "code2Digits": "GS",
         "phonePrefix": "",
-        "countryName": "Islas Georgias del Sur y Sandwich del Sur",
+        "countryName": "South Georgia and The South Sandwich Islands",
         "code3Digits": "SGS"
     },
     {
         "code2Digits": "TC",
         "phonePrefix": "+1649",
-        "countryName": "Islas Turcas y Caicos",
+        "countryName": "Turks and Caicos Islands",
         "code3Digits": "TCA"
     },
     {
         "code2Digits": "CX",
         "phonePrefix": "+61",
-        "countryName": "Isla Christmas",
+        "countryName": "Christmas Island",
         "code3Digits": "CXR"
     },
     {
         "code2Digits": "IM",
         "phonePrefix": "+44",
-        "countryName": "Isla de Man",
+        "countryName": "Man Island",
         "code3Digits": "IMN"
     },
     {
         "code2Digits": "IS",
         "phonePrefix": "+354",
-        "countryName": "Islandia",
+        "countryName": "Iceland",
         "code3Digits": "ISL"
     },
     {
         "code2Digits": "BV",
         "phonePrefix": "",
-        "countryName": "Islas Bouvet",
+        "countryName": "Bouvet Island",
         "code3Digits": "BVT"
     },
     {
         "code2Digits": "KY",
         "phonePrefix": "+1345",
-        "countryName": "Islas Caimán",
+        "countryName": "Cayman islands",
         "code3Digits": "CYM"
     },
     {
         "code2Digits": "CC",
         "phonePrefix": "+61",
-        "countryName": "Islas Cocos",
+        "countryName": "Cocos Islands",
         "code3Digits": "CCK"
     },
     {
         "code2Digits": "CK",
         "phonePrefix": "+682",
-        "countryName": "Islas Cook",
+        "countryName": "Cook Islands",
         "code3Digits": "COK"
     },
     {
         "code2Digits": "AX",
         "phonePrefix": "+35",
-        "countryName": "Islas de Aland",
+        "countryName": "Aland Islands",
         "code3Digits": "ALA"
     },
     {
         "code2Digits": "FO",
         "phonePrefix": "+298",
-        "countryName": "Islas Feroe",
+        "countryName": "Faroe Islands",
         "code3Digits": "FRO"
     },
     {
         "code2Digits": "FK",
         "phonePrefix": "+500",
-        "countryName": "Islas Malvinas",
+        "countryName": "Falkland Islands",
         "code3Digits": "FLK"
     },
     {
         "code2Digits": "NU",
         "phonePrefix": "+683",
-        "countryName": "Islas Niue",
+        "countryName": "Niue Islands",
         "code3Digits": "NIU"
     },
     {
         "code2Digits": "NF",
         "phonePrefix": "+672",
-        "countryName": "Islas Norfolk",
+        "countryName": "Norfolk Islands",
         "code3Digits": "NFK"
     },
     {
         "code2Digits": "PN",
         "phonePrefix": "",
-        "countryName": "Islas Pitcairn",
+        "countryName": "Pitcairn Islands",
         "code3Digits": "PCN"
     },
     {
         "code2Digits": "SB",
         "phonePrefix": "+677",
-        "countryName": "Islas Salomón",
+        "countryName": "Solomon Islands",
         "code3Digits": "SLB"
     },
     {
         "code2Digits": "TK",
         "phonePrefix": "+690",
-        "countryName": "Islas Tokelau",
+        "countryName": "Tokelau Islands",
         "code3Digits": "TKL"
-    },
-    {
-        "code2Digits": "UM",
-        "phonePrefix": "",
-        "countryName": "Islas Ultramarinas Menores de EEUU",
-        "code3Digits": "UMI"
-    },
-    {
-        "code2Digits": "VG",
-        "phonePrefix": "+1284",
-        "countryName": "Islas Vírgenes GB",
-        "code3Digits": "VGB"
-    },
-    {
-        "code2Digits": "VI",
-        "phonePrefix": "+1340",
-        "countryName": "Islas Vírgenes USA",
-        "code3Digits": "VIR"
     },
     {
         "code2Digits": "IL",
@@ -740,7 +674,7 @@
     {
         "code2Digits": "IT",
         "phonePrefix": "+39",
-        "countryName": "Italia",
+        "countryName": "Italy",
         "code3Digits": "ITA"
     },
     {
@@ -752,7 +686,7 @@
     {
         "code2Digits": "JP",
         "phonePrefix": "+81",
-        "countryName": "Japón",
+        "countryName": "Japan",
         "code3Digits": "JPN"
     },
     {
@@ -764,26 +698,20 @@
     {
         "code2Digits": "JO",
         "phonePrefix": "+962",
-        "countryName": "Jordania",
+        "countryName": "Jordan",
         "code3Digits": "JOR"
     },
     {
         "code2Digits": "KZ",
         "phonePrefix": "+7",
-        "countryName": "Kazajistán",
+        "countryName": "Kazakhstan",
         "code3Digits": "KAZ"
     },
     {
         "code2Digits": "KE",
         "phonePrefix": "",
-        "countryName": "Kenia",
+        "countryName": "Kenya",
         "code3Digits": "KEN"
-    },
-    {
-        "code2Digits": "KG",
-        "phonePrefix": "+996",
-        "countryName": "Kirguizistán",
-        "code3Digits": "KGZ"
     },
     {
         "code2Digits": "KI",
@@ -792,34 +720,52 @@
         "code3Digits": "KIR"
     },
     {
+        "code2Digits": "KP",
+        "phonePrefix": "+850",
+        "countryName": "Korea Democratic People Republic)",
+        "code3Digits": "PRK"
+    },
+    {
+        "code2Digits": "KR",
+        "phonePrefix": "+82",
+        "countryName": "Korea Republic",
+        "code3Digits": "KOR"
+    },
+    {
         "code2Digits": "KW",
         "phonePrefix": "+965",
         "countryName": "Kuwait",
         "code3Digits": "KWT"
     },
     {
+        "code2Digits": "KG",
+        "phonePrefix": "+996",
+        "countryName": "Kyrgyzstan",
+        "code3Digits": "KGZ"
+    },
+    {
         "code2Digits": "LA",
         "phonePrefix": "+856",
-        "countryName": "Laos",
+        "countryName": "Lao Peoples Democratic Republic",
         "code3Digits": "LAO"
     },
     {
         "code2Digits": "LS",
         "phonePrefix": "+266",
-        "countryName": "Lesoto",
+        "countryName": "Lesotho",
         "code3Digits": "LSO"
     },
     {
         "code2Digits": "LV",
         "phonePrefix": "+371",
-        "countryName": "Letonia",
+        "countryName": "Latvia",
         "code3Digits": "LVA"
     },
     {
         "code2Digits": "LB",
         "phonePrefix": "+961",
-        "countryName": "Líbano",
-        "code3Digits": ""
+        "countryName": "Lebanon",
+        "code3Digits": "LBN"
     },
     {
         "code2Digits": "LR",
@@ -830,7 +776,7 @@
     {
         "code2Digits": "LY",
         "phonePrefix": "+218",
-        "countryName": "Libia",
+        "countryName": "Libyan Arab Jamahiriya",
         "code3Digits": "LBY"
     },
     {
@@ -842,13 +788,13 @@
     {
         "code2Digits": "LT",
         "phonePrefix": "+370",
-        "countryName": "Lituania",
+        "countryName": "Lithuania",
         "code3Digits": "LTU"
     },
     {
         "code2Digits": "LU",
         "phonePrefix": "+352",
-        "countryName": "Luxemburgo",
+        "countryName": "Luxembourg",
         "code3Digits": "LUX"
     },
     {
@@ -860,7 +806,7 @@
     {
         "code2Digits": "MK",
         "phonePrefix": "+389",
-        "countryName": "Macedonia",
+        "countryName": "Macedonia Yugoslav Republic",
         "code3Digits": "MKD"
     },
     {
@@ -872,25 +818,25 @@
     {
         "code2Digits": "MY",
         "phonePrefix": "+60",
-        "countryName": "Malasia",
+        "countryName": "Malaysia",
         "code3Digits": "MYS"
     },
     {
         "code2Digits": "MW",
         "phonePrefix": "+265",
-        "countryName": "Malaui",
+        "countryName": "Malawi",
         "code3Digits": "MWI"
     },
     {
         "code2Digits": "MV",
         "phonePrefix": "+960",
-        "countryName": "Maldivas",
+        "countryName": "Maldives",
         "code3Digits": "MDV"
     },
     {
         "code2Digits": "ML",
         "phonePrefix": "+223",
-        "countryName": "Malí",
+        "countryName": "Mali",
         "code3Digits": "MLI"
     },
     {
@@ -902,13 +848,13 @@
     {
         "code2Digits": "MA",
         "phonePrefix": "+212",
-        "countryName": "Marruecos",
+        "countryName": "Morocco",
         "code3Digits": "MAR"
     },
     {
         "code2Digits": "MQ",
         "phonePrefix": "+596",
-        "countryName": "Martinica",
+        "countryName": "Martinique",
         "code3Digits": "MTQ"
     },
     {
@@ -925,26 +871,26 @@
     },
     {
         "code2Digits": "MX",
-        "phonePrefix": "",
-        "countryName": "México",
+        "phonePrefix": "+52",
+        "countryName": "Mexico",
         "code3Digits": "MEX"
     },
     {
         "code2Digits": "FM",
         "phonePrefix": "+691",
-        "countryName": "Micronesia",
+        "countryName": "Micronesia Federated States",
         "code3Digits": "FSM"
     },
     {
         "code2Digits": "MD",
         "phonePrefix": "+373",
-        "countryName": "Moldavia",
+        "countryName": "Moldova Republic",
         "code3Digits": "MDA"
     },
     {
         "code2Digits": "MC",
         "phonePrefix": "+377",
-        "countryName": "Mónaco",
+        "countryName": "Monaco",
         "code3Digits": "MCO"
     },
     {
@@ -975,7 +921,7 @@
         "code2Digits": "MM",
         "phonePrefix": "+95",
         "countryName": "Myanmar",
-        "code3Digits": "MMR"
+        "code3Digits": "NMR"
     },
     {
         "code2Digits": "NA",
@@ -994,6 +940,12 @@
         "phonePrefix": "+977",
         "countryName": "Nepal",
         "code3Digits": "NPL"
+    },
+    {
+        "code2Digits": "NL",
+        "phonePrefix": "+31",
+        "countryName": "Netherlands",
+        "code3Digits": "NLD"
     },
     {
         "code2Digits": "NI",
@@ -1016,61 +968,55 @@
     {
         "code2Digits": "NO",
         "phonePrefix": "+47",
-        "countryName": "Noruega",
+        "countryName": "Norway",
         "code3Digits": "NOR"
     },
     {
         "code2Digits": "NC",
         "phonePrefix": "+687",
-        "countryName": "Nueva Caledonia",
+        "countryName": "New Caledonia",
         "code3Digits": "NCL"
     },
     {
         "code2Digits": "NZ",
         "phonePrefix": "+64",
-        "countryName": "Nueva Zelanda",
+        "countryName": "New Zealand",
         "code3Digits": "NZL"
     },
     {
         "code2Digits": "OM",
         "phonePrefix": "+968",
-        "countryName": "Omán",
+        "countryName": "Oman",
         "code3Digits": "OMN"
-    },
-    {
-        "code2Digits": "NL",
-        "phonePrefix": "+31",
-        "countryName": "Países Bajos",
-        "code3Digits": "NLD"
     },
     {
         "code2Digits": "PK",
         "phonePrefix": "+92",
-        "countryName": "Pakistán",
+        "countryName": "Pakistan",
         "code3Digits": "PAK"
     },
     {
         "code2Digits": "PW",
         "phonePrefix": "+680",
-        "countryName": "Palaos",
+        "countryName": "Palau",
         "code3Digits": "PLW"
     },
     {
         "code2Digits": "PS",
         "phonePrefix": "+970",
-        "countryName": "Palestina",
+        "countryName": "Palestinian Territory",
         "code3Digits": "PSE"
     },
     {
         "code2Digits": "PA",
         "phonePrefix": "+507",
-        "countryName": "Panamá",
+        "countryName": "Panama",
         "code3Digits": "PAN"
     },
     {
         "code2Digits": "PG",
         "phonePrefix": "+675",
-        "countryName": "Papua Nueva Guinea",
+        "countryName": "Papua New Guinea",
         "code3Digits": "PNG"
     },
     {
@@ -1082,19 +1028,19 @@
     {
         "code2Digits": "PE",
         "phonePrefix": "+51",
-        "countryName": "Perú",
+        "countryName": "Peru",
         "code3Digits": "PER"
     },
     {
-        "code2Digits": "PF",
-        "phonePrefix": "+689",
-        "countryName": "Polinesia Francesa",
-        "code3Digits": "PYF"
+        "code2Digits": "PH",
+        "phonePrefix": "+63",
+        "countryName": "Philippines",
+        "code3Digits": "PHL"
     },
     {
         "code2Digits": "PL",
         "phonePrefix": "+48",
-        "countryName": "Polonia",
+        "countryName": "Poland",
         "code3Digits": "POL"
     },
     {
@@ -1118,85 +1064,91 @@
     {
         "code2Digits": "GB",
         "phonePrefix": "+44",
-        "countryName": "Reino Unido",
+        "countryName": "United Kingdom",
         "code3Digits": "GBR"
     },
     {
         "code2Digits": "DO",
         "phonePrefix": "+1",
-        "countryName": "República Dominicana",
+        "countryName": "Dominican Republic",
         "code3Digits": "DOM"
     },
     {
         "code2Digits": "CF",
         "phonePrefix": "+236",
-        "countryName": "República Centroafricana",
+        "countryName": "Central African Republic",
         "code3Digits": "CAF"
     },
     {
         "code2Digits": "CZ",
         "phonePrefix": "+420",
-        "countryName": "República Checa",
+        "countryName": "Czech Republic",
         "code3Digits": "CZE"
     },
     {
         "code2Digits": "CG",
         "phonePrefix": "+242",
-        "countryName": "República Congo",
+        "countryName": "Congo Republic",
         "code3Digits": "COG"
     },
     {
         "code2Digits": "CD",
         "phonePrefix": "+243",
-        "countryName": "República Democrática Congo",
-        "code3Digits": ""
+        "countryName": "Congo Democratic Republic",
+        "code3Digits": "COD"
     },
     {
         "code2Digits": "RE",
         "phonePrefix": "+262",
-        "countryName": "Reunión",
+        "countryName": "Reunion",
         "code3Digits": "REU"
     },
     {
         "code2Digits": "RW",
         "phonePrefix": "+250",
-        "countryName": "Ruanda",
+        "countryName": "Rwanda",
         "code3Digits": "RWA"
     },
     {
         "code2Digits": "RO",
         "phonePrefix": "+40",
-        "countryName": "Rumanía",
+        "countryName": "Romania",
         "code3Digits": "ROU"
+    },
+    {
+        "code2Digits": "RU",
+        "phonePrefix": "+7",
+        "countryName": "Russian Federation",
+        "code3Digits": "RUS"
     },
     {
         "code2Digits": "KN",
         "phonePrefix": "+1869",
-        "countryName": "San Cristóbal y Nieves",
+        "countryName": "Saint Kitts and Nevis",
         "code3Digits": "KNA"
     },
     {
         "code2Digits": "PM",
         "phonePrefix": "+508",
-        "countryName": "San Pedro y Miquelón",
+        "countryName": "Saint Pierre and Miquelon",
         "code3Digits": "SPM"
     },
     {
         "code2Digits": "ST",
         "phonePrefix": "+239",
-        "countryName": "Santo Tomé y Príncipe",
+        "countryName": "Sao Tome and Principe",
         "code3Digits": "STP"
     },
     {
         "code2Digits": "EH",
         "phonePrefix": "+212",
-        "countryName": "Sáhara occidental",
+        "countryName": "Western Sahara",
         "code3Digits": "ESH"
     },
     {
         "code2Digits": "AS",
         "phonePrefix": "+1684",
-        "countryName": "Samoa americana",
+        "countryName": "American samoa",
         "code3Digits": "ASM"
     },
     {
@@ -1214,26 +1166,32 @@
     {
         "code2Digits": "MF",
         "phonePrefix": "+590",
-        "countryName": "San Martín",
+        "countryName": "San Martin",
         "code3Digits": "MAF"
     },
     {
         "code2Digits": "VC",
         "phonePrefix": "+1784",
-        "countryName": "San Vicente",
+        "countryName": "Saint Vincent and The Grenadines",
         "code3Digits": "VCT"
     },
     {
         "code2Digits": "SH",
         "phonePrefix": "",
-        "countryName": "Santa Helena",
+        "countryName": "Saint Helena",
         "code3Digits": "SHN"
     },
     {
         "code2Digits": "LC",
         "phonePrefix": "+1758",
-        "countryName": "Santa Lucía",
+        "countryName": "Santa Lucia",
         "code3Digits": "LCA"
+    },
+    {
+        "code2Digits": "SA",
+        "phonePrefix": "+966",
+        "countryName": "Saudi Arabia",
+        "code3Digits": "SAU"
     },
     {
         "code2Digits": "SN",
@@ -1248,12 +1206,6 @@
         "code3Digits": "SRB"
     },
     {
-        "code2Digits": "CS",
-        "phonePrefix": "",
-        "contryName": "Serbia/Montenegro",
-        "code3Digits": ""
-    },
-    {
         "code2Digits": "SC",
         "phonePrefix": "+248",
         "countryName": "Seychelles",
@@ -1262,13 +1214,13 @@
     {
         "code2Digits": "SL",
         "phonePrefix": "+232",
-        "countryName": "Sierra Leona",
+        "countryName": "Sierra Leone",
         "code3Digits": "SLE"
     },
     {
         "code2Digits": "SG",
         "phonePrefix": "+65",
-        "countryName": "Singapur",
+        "countryName": "Singapore",
         "code3Digits": "SGP"
     },
     {
@@ -1278,9 +1230,21 @@
         "code3Digits": "SXM"
     },
     {
+        "code2Digits": "SK",
+        "phonePrefix": "+421",
+        "countryName": "Slovakia",
+        "code3Digits": "SVK"
+    },
+    {
+        "code2Digits": "ES",
+        "phonePrefix": "+34",
+        "countryName": "Spain",
+        "code3Digits": "ESP"
+    },
+    {
         "code2Digits": "SY",
         "phonePrefix": "+963",
-        "countryName": "Siria",
+        "countryName": "Syrian Arab Republic",
         "code3Digits": "SYR"
     },
     {
@@ -1298,55 +1262,55 @@
     {
         "code2Digits": "SZ",
         "phonePrefix": "",
-        "countryName": "Suazilandia",
+        "countryName": "Swaziland",
         "code3Digits": "SWZ"
     },
     {
         "code2Digits": "ZA",
         "phonePrefix": "+27",
-        "countryName": "Sudáfrica",
+        "countryName": "South Africa",
         "code3Digits": "ZAF"
     },
     {
         "code2Digits": "SD",
         "phonePrefix": "+249",
-        "countryName": "Sudán",
+        "countryName": "Sudan",
         "code3Digits": "SDN"
     },
     {
         "code2Digits": "SS",
         "phonePrefix": "+211",
-        "countryName": "Sudán del Sur",
+        "countryName": "South Sudan of",
         "code3Digits": "SSD"
     },
     {
         "code2Digits": "SE",
         "phonePrefix": "+46",
-        "countryName": "Suecia",
+        "countryName": "Sweden",
         "code3Digits": "SWE"
     },
     {
         "code2Digits": "CH",
         "phonePrefix": "+41",
-        "countryName": "Suiza",
+        "countryName": "Switzerland",
         "code3Digits": "CHE"
     },
     {
         "code2Digits": "SR",
         "phonePrefix": "+597",
-        "countryName": "Surinam",
+        "countryName": "Suriname",
         "code3Digits": "SUR"
     },
     {
         "code2Digits": "SJ",
         "phonePrefix": "+47",
-        "countryName": "Svalbard",
+        "countryName": "Svalbard and Jan Mayen Islands",
         "code3Digits": "SJM"
     },
     {
         "code2Digits": "TH",
         "phonePrefix": "+66",
-        "countryName": "Tailandia",
+        "countryName": "Thailand",
         "code3Digits": "THA"
     },
     {
@@ -1358,32 +1322,14 @@
     {
         "code2Digits": "TZ",
         "phonePrefix": "+255",
-        "countryName": "Tanzania",
+        "countryName": "Tanzania United Republic",
         "code3Digits": "TZA"
     },
     {
         "code2Digits": "TJ",
         "phonePrefix": "+992",
-        "countryName": "Tayikistán",
+        "countryName": "Tajikistan",
         "code3Digits": "TJK"
-    },
-    {
-        "code2Digits": "IO",
-        "phonePrefix": "+246",
-        "countryName": "Territorio Británico del Océano Índico",
-        "code3Digits": "IOT"
-    },
-    {
-        "code2Digits": "TL",
-        "phonePrefix": "+670",
-        "countryName": "Timor Oriental",
-        "code3Digits": "TLS"
-    },
-    {
-        "code2Digits": "TP",
-        "phonePrefix": "",
-        "countryName": "Timor oriental",
-        "code3Digits": ""
     },
     {
         "code2Digits": "TG",
@@ -1400,25 +1346,25 @@
     {
         "code2Digits": "TT",
         "phonePrefix": "+1868",
-        "countryName": "Trinidad y Tobago",
+        "countryName": "Trinidad and Tobago",
         "code3Digits": "TTO"
     },
     {
         "code2Digits": "TN",
         "phonePrefix": "+216",
-        "countryName": "Túnez",
+        "countryName": "Tunisia",
         "code3Digits": "TUN"
     },
     {
         "code2Digits": "TM",
         "phonePrefix": "+993",
-        "countryName": "Turkmenistán",
+        "countryName": "Turkmenistan",
         "code3Digits": "TKM"
     },
     {
         "code2Digits": "TR",
         "phonePrefix": "+90",
-        "countryName": "Turquía",
+        "countryName": "Turkey",
         "code3Digits": "TUR"
     },
     {
@@ -1430,7 +1376,7 @@
     {
         "code2Digits": "UA",
         "phonePrefix": "+380",
-        "countryName": "Ucrania",
+        "countryName": "Ukraine",
         "code3Digits": "UKR"
     },
     {
@@ -1438,6 +1384,24 @@
         "phonePrefix": "+256",
         "countryName": "Uganda",
         "code3Digits": "UGA"
+    },
+    {
+        "code2Digits": "AE",
+        "phonePrefix": "+971",
+        "countryName": "United Arab Emirates",
+        "code3Digits": "ARE"
+    },
+    {
+        "code2Digits": "US",
+        "phonePrefix": "+1",
+        "countryName": "United States",
+        "code3Digits": "USA"
+    },
+    {
+        "code2Digits": "UM",
+        "phonePrefix": "",
+        "countryName": "United States Minor Outlying Islands",
+        "code3Digits": "UMI"
     },
     {
         "code2Digits": "UY",
@@ -1448,7 +1412,7 @@
     {
         "code2Digits": "UZ",
         "phonePrefix": "+998",
-        "countryName": "Uzbekistán",
+        "countryName": "Uzbekistan",
         "code3Digits": "UZB"
     },
     {
@@ -1456,6 +1420,12 @@
         "phonePrefix": "+678",
         "countryName": "Vanuatu",
         "code3Digits": "VUT"
+    },
+    {
+        "code2Digits": "VA",
+        "phonePrefix": "+39",
+        "countryName": "Vatican City State",
+        "code3Digits": "VAT"
     },
     {
         "code2Digits": "VE",
@@ -1466,14 +1436,32 @@
     {
         "code2Digits": "VN",
         "phonePrefix": "+84",
-        "countryName": "Vietnam",
+        "countryName": "Viet Nam",
         "code3Digits": "VNM"
+    },
+    {
+        "code2Digits": "VG",
+        "phonePrefix": "+1284",
+        "countryName": "Virgin Islands UK",
+        "code3Digits": "VGB"
+    },
+    {
+        "code2Digits": "VI",
+        "phonePrefix": "+1340",
+        "countryName": "Virgin Islands US",
+        "code3Digits": "VIR"
     },
     {
         "code2Digits": "WF",
         "phonePrefix": "+681",
-        "countryName": "Wallis y Futuna",
+        "countryName": "Wallis and Futuna Islands",
         "code3Digits": "WLF"
+    },
+    {
+        "code2Digits": "TL",
+        "phonePrefix": "+670",
+        "countryName": "West Timor",
+        "code3Digits": "TLS"
     },
     {
         "code2Digits": "YE",
@@ -1484,8 +1472,8 @@
     {
         "code2Digits": "DJ",
         "phonePrefix": "+253",
-        "countryName": "Yibuti",
-        "code3Digits": "DJ"
+        "countryName": "Djibouti",
+        "code3Digits": "DJI"
     },
     {
         "code2Digits": "ZM",
@@ -1496,7 +1484,7 @@
     {
         "code2Digits": "ZW",
         "phonePrefix": "+263",
-        "countryName": "Zimbabue",
+        "countryName": "Zimbabwe",
         "code3Digits": "ZWE"
     }
 ]
