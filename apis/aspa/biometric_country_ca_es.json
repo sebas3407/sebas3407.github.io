@@ -1,0 +1,1502 @@
+[
+    {
+        "code2Digits": "",
+        "phonePrefix": "+376",
+        "countryName": "Andorra",
+        "code3Digits": "AND"
+    },
+    {
+        "code2Digits": "AF",
+        "phonePrefix": "+93",
+        "countryName": "Afganistán",
+        "code3Digits": "AFG"
+    },
+    {
+        "code2Digits": "AL",
+        "phonePrefix": "+355",
+        "countryName": "Albania",
+        "code3Digits": "ALB"
+    },
+    {
+        "code2Digits": "DE",
+        "phonePrefix": "+49",
+        "countryName": "Alemania",
+        "code3Digits": "DEU"
+    },
+    {
+        "code2Digits": "AO",
+        "phonePrefix": "+244",
+        "countryName": "Angola",
+        "code3Digits": "AGO"
+    },
+    {
+        "code2Digits": "AI",
+        "phonePrefix": "+1264",
+        "countryName": "Anguilla",
+        "code3Digits": "AIA"
+    },
+    {
+        "code2Digits": "AQ",
+        "phonePrefix": "",
+        "countryName": "Antártida",
+        "code3Digits": "ATA"
+    },
+    {
+        "code2Digits": "AG",
+        "phonePrefix": "+1268",
+        "countryName": "Antigua/Barbuda",
+        "code3Digits": "ATG"
+    },
+    {
+        "code2Digits": "SA",
+        "phonePrefix": "+966",
+        "countryName": "Arabia Saudí",
+        "code3Digits": "SAU"
+    },
+    {
+        "code2Digits": "DZ",
+        "phonePrefix": "+213",
+        "countryName": "Argelia",
+        "code3Digits": "DZA"
+    },
+    {
+        "code2Digits": "AR",
+        "phonePrefix": "+54",
+        "countryName": "Argentina",
+        "code3Digits": "ARG"
+    },
+    {
+        "code2Digits": "AM",
+        "phonePrefix": "+374",
+        "countryName": "Armenia",
+        "code3Digits": "ARM"
+    },
+    {
+        "code2Digits": "AW",
+        "phonePrefix": "+297",
+        "countryName": "Aruba",
+        "code3Digits": "ABW"
+    },
+    {
+        "code2Digits": "AU",
+        "phonePrefix": "+61",
+        "countryName": "Australia",
+        "code3Digits": "AUS"
+    },
+    {
+        "code2Digits": "AT",
+        "phonePrefix": "+43",
+        "countryName": "Austria",
+        "code3Digits": "AUT"
+    },
+    {
+        "code2Digits": "AZ",
+        "phonePrefix": "+994",
+        "countryName": "Azerbaiyán",
+        "code3Digits": "AZE"
+    },
+    {
+        "code2Digits": "BS",
+        "phonePrefix": "+1242",
+        "countryName": "Bahamas",
+        "code3Digits": "BHS"
+    },
+    {
+        "code2Digits": "BH",
+        "phonePrefix": "+973",
+        "countryName": "Bahráin",
+        "code3Digits": "BHR"
+    },
+    {
+        "code2Digits": "BD",
+        "phonePrefix": "+880",
+        "countryName": "Bangladesh",
+        "code3Digits": "BGD"
+    },
+    {
+        "code2Digits": "BB",
+        "phonePrefix": "+1246",
+        "countryName": "Barbados",
+        "code3Digits": "BRB"
+    },
+    {
+        "code2Digits": "BE",
+        "phonePrefix": "+32",
+        "countryName": "Bélgica",
+        "code3Digits": "BEL"
+    },
+    {
+        "code2Digits": "BZ",
+        "phonePrefix": "+501",
+        "countryName": "Belice",
+        "code3Digits": "BLZ"
+    },
+    {
+        "code2Digits": "BJ",
+        "phonePrefix": "+229",
+        "countryName": "Benín",
+        "code3Digits": "BEN"
+    },
+    {
+        "code2Digits": "BM",
+        "phonePrefix": "+1441",
+        "countryName": "Bermudas",
+        "code3Digits": "BMU"
+    },
+    {
+        "code2Digits": "BY",
+        "phonePrefix": "+375",
+        "countryName": "Bielorrusia",
+        "code3Digits": "BLR"
+    },
+    {
+        "code2Digits": "BO",
+        "phonePrefix": "+591",
+        "countryName": "Bolivia",
+        "code3Digits": "BOL"
+    },
+    {
+        "code2Digits": "BQ",
+        "phonePrefix": "+599",
+        "countryName": "Bonaire Saba",
+        "code3Digits": "BES"
+    },
+    {
+        "code2Digits": "BA",
+        "phonePrefix": "+387",
+        "countryName": "Bosnia y Herzegovina",
+        "code3Digits": "BIH"
+    },
+    {
+        "code2Digits": "BW",
+        "phonePrefix": "+267",
+        "countryName": "Botsuana",
+        "code3Digits": "BWA"
+    },
+    {
+        "code2Digits": "BR",
+        "phonePrefix": "+55",
+        "countryName": "Brasil",
+        "code3Digits": "BRA"
+    },
+    {
+        "code2Digits": "BN",
+        "phonePrefix": "+673",
+        "countryName": "Brunéi",
+        "code3Digits": "BRN"
+    },
+    {
+        "code2Digits": "BG",
+        "phonePrefix": "+359",
+        "countryName": "Bulgaria",
+        "code3Digits": "BGR"
+    },
+    {
+        "code2Digits": "BF",
+        "phonePrefix": "+226",
+        "countryName": "Burkina Faso",
+        "code3Digits": "BFA"
+    },
+    {
+        "code2Digits": "BI",
+        "phonePrefix": "+257",
+        "countryName": "Burundi",
+        "code3Digits": "BDI"
+    },
+    {
+        "code2Digits": "BT",
+        "phonePrefix": "+975",
+        "countryName": "Bután",
+        "code3Digits": "BTN"
+    },
+    {
+        "code2Digits": "CV",
+        "phonePrefix": "+238",
+        "countryName": "Cabo Verde",
+        "code3Digits": "CPV"
+    },
+    {
+        "code2Digits": "KH",
+        "phonePrefix": "+855",
+        "countryName": "Camboya",
+        "code3Digits": "KHM"
+    },
+    {
+        "code2Digits": "CM",
+        "phonePrefix": "+237",
+        "countryName": "Camerún",
+        "code3Digits": "CMR"
+    },
+    {
+        "code2Digits": "CA",
+        "phonePrefix": "+1",
+        "countryName": "Canadá",
+        "code3Digits": "CAN"
+    },
+    {
+        "code2Digits": "TD",
+        "phonePrefix": "+235",
+        "countryName": "Chad",
+        "code3Digits": "TCD"
+    },
+    {
+        "code2Digits": "CL",
+        "phonePrefix": "+56",
+        "countryName": "Chile",
+        "code3Digits": "CHL"
+    },
+    {
+        "code2Digits": "CN",
+        "phonePrefix": "+86",
+        "countryName": "China",
+        "code3Digits": "CHN"
+    },
+    {
+        "code2Digits": "CY",
+        "phonePrefix": "+357",
+        "countryName": "Chipre",
+        "code3Digits": "CYP"
+    },
+    {
+        "code2Digits": "VA",
+        "phonePrefix": "+39",
+        "countryName": "Ciudad Vaticano",
+        "code3Digits": "VAT"
+    },
+    {
+        "code2Digits": "CO",
+        "phonePrefix": "",
+        "countryName": "Colombia",
+        "code3Digits": "COL"
+    },
+    {
+        "code2Digits": "KM",
+        "phonePrefix": "+269",
+        "countryName": "Comoras",
+        "code3Digits": "COM"
+    },
+    {
+        "code2Digits": "KP",
+        "phonePrefix": "+850",
+        "countryName": "Corea del Norte",
+        "code3Digits": "PRK"
+    },
+    {
+        "code2Digits": "KR",
+        "phonePrefix": "+82",
+        "countryName": "Corea del Sur",
+        "code3Digits": "KOR"
+    },
+    {
+        "code2Digits": "CI",
+        "phonePrefix": "+225",
+        "countryName": "Costa de Marfil",
+        "code3Digits": "CIV"
+    },
+    {
+        "code2Digits": "CR",
+        "phonePrefix": "+506",
+        "countryName": "Costa Rica",
+        "code3Digits": "CRI"
+    },
+    {
+        "code2Digits": "HR",
+        "phonePrefix": "+385",
+        "countryName": "Croacia",
+        "code3Digits": "HRV"
+    },
+    {
+        "code2Digits": "CU",
+        "phonePrefix": "+53",
+        "countryName": "Cuba",
+        "code3Digits": "CUB"
+    },
+    {
+        "code2Digits": "CW",
+        "phonePrefix": "+599",
+        "countryName": "Curaçao",
+        "code3Digits": "CUW"
+    },
+    {
+        "code2Digits": "MH",
+        "phonePrefix": "+692",
+        "countryName": "Islas Marshall",
+        "code3Digits": "MHL"
+    },
+    {
+        "code2Digits": "DK",
+        "phonePrefix": "+45",
+        "countryName": "Dinamarca",
+        "code3Digits": "DNK"
+    },
+    {
+        "code2Digits": "DM",
+        "phonePrefix": "+1767",
+        "countryName": "Dominica",
+        "code3Digits": "DMA"
+    },
+    {
+        "code2Digits": "EC",
+        "phonePrefix": "+593",
+        "countryName": "Ecuador",
+        "code3Digits": "ECU"
+    },
+    {
+        "code2Digits": "US",
+        "phonePrefix": "+1",
+        "countryName": "Estados Unidos de América",
+        "code3Digits": "USA"
+    },
+    {
+        "code2Digits": "EG",
+        "phonePrefix": "+20",
+        "countryName": "Egipto",
+        "code3Digits": "EGY"
+    },
+    {
+        "code2Digits": "SV",
+        "phonePrefix": "+503",
+        "countryName": "El Salvador",
+        "code3Digits": "SLV"
+    },
+    {
+        "code2Digits": "AE",
+        "phonePrefix": "+971",
+        "countryName": "Emiratos Árabes Unidos",
+        "code3Digits": "ARE"
+    },
+    {
+        "code2Digits": "ER",
+        "phonePrefix": "+291",
+        "countryName": "Eritrea",
+        "code3Digits": "ERI"
+    },
+    {
+        "code2Digits": "SK",
+        "phonePrefix": "+421",
+        "countryName": "Eslovaquia",
+        "code3Digits": "SVK"
+    },
+    {
+        "code2Digits": "SI",
+        "phonePrefix": "+386",
+        "countryName": "Eslovenia",
+        "code3Digits": "SVN"
+    },
+    {
+        "code2Digits": "ES",
+        "phonePrefix": "+34",
+        "countryName": "España",
+        "code3Digits": "ESP"
+    },
+    {
+        "code2Digits": "EE",
+        "phonePrefix": "+372",
+        "countryName": "Estonia",
+        "code3Digits": "EST"
+    },
+    {
+        "code2Digits": "ET",
+        "phonePrefix": "+251",
+        "countryName": "Etiopía",
+        "code3Digits": "ETH"
+    },
+    {
+        "code2Digits": "RU",
+        "phonePrefix": "+7",
+        "countryName": "Federación Rusa",
+        "code3Digits": "RUS"
+    },
+    {
+        "code2Digits": "PH",
+        "phonePrefix": "+63",
+        "countryName": "Filipinas",
+        "code3Digits": "PHL"
+    },
+    {
+        "code2Digits": "FI",
+        "phonePrefix": "+358",
+        "countryName": "Finlandia",
+        "code3Digits": "FIN"
+    },
+    {
+        "code2Digits": "FJ",
+        "phonePrefix": "+679",
+        "countryName": "Fiyi",
+        "code3Digits": "FJI"
+    },
+    {
+        "code2Digits": "FR",
+        "phonePrefix": "+33",
+        "countryName": "Francia",
+        "code3Digits": "FRA"
+    },
+    {
+        "code2Digits": "TF",
+        "phonePrefix": "",
+        "countryName": "Tierras Australes y Antárticas Francesas",
+        "code3Digits": "ATF"
+    },
+    {
+        "code2Digits": "GA",
+        "phonePrefix": "+241",
+        "countryName": "Gabón",
+        "code3Digits": "GAB"
+    },
+    {
+        "code2Digits": "GM",
+        "phonePrefix": "+220",
+        "countryName": "Gambia",
+        "code3Digits": "GMB"
+    },
+    {
+        "code2Digits": "GE",
+        "phonePrefix": "+995",
+        "countryName": "Georgia",
+        "code3Digits": "GEO"
+    },
+    {
+        "code2Digits": "GH",
+        "phonePrefix": "+233",
+        "countryName": "Ghana",
+        "code3Digits": "GHA"
+    },
+    {
+        "code2Digits": "GI",
+        "phonePrefix": "+350",
+        "countryName": "Gibraltar",
+        "code3Digits": "GIB"
+    },
+    {
+        "code2Digits": "GD",
+        "phonePrefix": "+1473",
+        "countryName": "Granada",
+        "code3Digits": "GRD"
+    },
+    {
+        "code2Digits": "GR",
+        "phonePrefix": "+30",
+        "countryName": "Grecia",
+        "code3Digits": "GRC"
+    },
+    {
+        "code2Digits": "GL",
+        "phonePrefix": "+299",
+        "countryName": "Groenlandia",
+        "code3Digits": "GRL"
+    },
+    {
+        "code2Digits": "GP",
+        "phonePrefix": "+590",
+        "countryName": "Guadalupe",
+        "code3Digits": "GLP"
+    },
+    {
+        "code2Digits": "GU",
+        "phonePrefix": "+1671",
+        "countryName": "Islas Guam",
+        "code3Digits": "GUM"
+    },
+    {
+        "code2Digits": "GT",
+        "phonePrefix": "+502",
+        "countryName": "Guatemala",
+        "code3Digits": "GTM"
+    },
+    {
+        "code2Digits": "GF",
+        "phonePrefix": "+594",
+        "countryName": "Guayana Francesa",
+        "code3Digits": "GUF"
+    },
+    {
+        "code2Digits": "GG",
+        "phonePrefix": "+44",
+        "countryName": "Guernsey",
+        "code3Digits": "GGY"
+    },
+    {
+        "code2Digits": "GN",
+        "phonePrefix": "",
+        "countryName": "Guinea",
+        "code3Digits": "GIN"
+    },
+    {
+        "code2Digits": "GQ",
+        "phonePrefix": "+240",
+        "countryName": "Guinea Ecuator",
+        "code3Digits": "GNQ"
+    },
+    {
+        "code2Digits": "GW",
+        "phonePrefix": "+245",
+        "countryName": "Guinea-Bissau",
+        "code3Digits": "GNB"
+    },
+    {
+        "code2Digits": "GY",
+        "phonePrefix": "+592",
+        "countryName": "Guyana",
+        "code3Digits": "GUY"
+    },
+    {
+        "code2Digits": "HT",
+        "phonePrefix": "+509",
+        "countryName": "Haití",
+        "code3Digits": "HTI"
+    },
+    {
+        "code2Digits": "HN",
+        "phonePrefix": "+504",
+        "countryName": "Honduras",
+        "code3Digits": "HND"
+    },
+    {
+        "code2Digits": "HK",
+        "phonePrefix": "+852",
+        "countryName": "Hong Kong",
+        "code3Digits": "HKG"
+    },
+    {
+        "code2Digits": "HU",
+        "phonePrefix": "+36",
+        "countryName": "Hungría",
+        "code3Digits": "HUN"
+    },
+    {
+        "code2Digits": "IN",
+        "phonePrefix": "+91",
+        "countryName": "India",
+        "code3Digits": "IND"
+    },
+    {
+        "code2Digits": "ID",
+        "phonePrefix": "+62",
+        "countryName": "Indonesia",
+        "code3Digits": "IDN"
+    },
+    {
+        "code2Digits": "IR",
+        "phonePrefix": "+98",
+        "countryName": "Irán",
+        "code3Digits": "IRN"
+    },
+    {
+        "code2Digits": "IQ",
+        "phonePrefix": "+964",
+        "countryName": "Iraq",
+        "code3Digits": "IRQ"
+    },
+    {
+        "code2Digits": "IE",
+        "phonePrefix": "+353",
+        "countryName": "Irlanda",
+        "code3Digits": "IRL"
+    },
+    {
+        "code2Digits": "HM",
+        "phonePrefix": "",
+        "countryName": "Islas Heard y McDonald",
+        "code3Digits": "HMD"
+    },
+    {
+        "code2Digits": "MP",
+        "phonePrefix": "+1670",
+        "countryName": "Islas Marianas N",
+        "code3Digits": "MNP"
+    },
+    {
+        "code2Digits": "MU",
+        "phonePrefix": "+230",
+        "countryName": "Isla Mauricio",
+        "code3Digits": ""
+    },
+    {
+        "code2Digits": "GS",
+        "phonePrefix": "",
+        "countryName": "Islas Georgias del Sur y Sandwich del Sur",
+        "code3Digits": "SGS"
+    },
+    {
+        "code2Digits": "TC",
+        "phonePrefix": "+1649",
+        "countryName": "Islas Turcas y Caicos",
+        "code3Digits": "TCA"
+    },
+    {
+        "code2Digits": "CX",
+        "phonePrefix": "+61",
+        "countryName": "Isla Christmas",
+        "code3Digits": "CXR"
+    },
+    {
+        "code2Digits": "IM",
+        "phonePrefix": "+44",
+        "countryName": "Isla de Man",
+        "code3Digits": "IMN"
+    },
+    {
+        "code2Digits": "IS",
+        "phonePrefix": "+354",
+        "countryName": "Islandia",
+        "code3Digits": "ISL"
+    },
+    {
+        "code2Digits": "BV",
+        "phonePrefix": "",
+        "countryName": "Islas Bouvet",
+        "code3Digits": "BVT"
+    },
+    {
+        "code2Digits": "KY",
+        "phonePrefix": "+1345",
+        "countryName": "Islas Caimán",
+        "code3Digits": "CYM"
+    },
+    {
+        "code2Digits": "CC",
+        "phonePrefix": "+61",
+        "countryName": "Islas Cocos",
+        "code3Digits": "CCK"
+    },
+    {
+        "code2Digits": "CK",
+        "phonePrefix": "+682",
+        "countryName": "Islas Cook",
+        "code3Digits": "COK"
+    },
+    {
+        "code2Digits": "AX",
+        "phonePrefix": "+35",
+        "countryName": "Islas de Aland",
+        "code3Digits": "ALA"
+    },
+    {
+        "code2Digits": "FO",
+        "phonePrefix": "+298",
+        "countryName": "Islas Feroe",
+        "code3Digits": "FRO"
+    },
+    {
+        "code2Digits": "FK",
+        "phonePrefix": "+500",
+        "countryName": "Islas Malvinas",
+        "code3Digits": "FLK"
+    },
+    {
+        "code2Digits": "NU",
+        "phonePrefix": "+683",
+        "countryName": "Islas Niue",
+        "code3Digits": "NIU"
+    },
+    {
+        "code2Digits": "NF",
+        "phonePrefix": "+672",
+        "countryName": "Islas Norfolk",
+        "code3Digits": "NFK"
+    },
+    {
+        "code2Digits": "PN",
+        "phonePrefix": "",
+        "countryName": "Islas Pitcairn",
+        "code3Digits": "PCN"
+    },
+    {
+        "code2Digits": "SB",
+        "phonePrefix": "+677",
+        "countryName": "Islas Salomón",
+        "code3Digits": "SLB"
+    },
+    {
+        "code2Digits": "TK",
+        "phonePrefix": "+690",
+        "countryName": "Islas Tokelau",
+        "code3Digits": "TKL"
+    },
+    {
+        "code2Digits": "UM",
+        "phonePrefix": "",
+        "countryName": "Islas Ultramarinas Menores de EEUU",
+        "code3Digits": "UMI"
+    },
+    {
+        "code2Digits": "VG",
+        "phonePrefix": "+1284",
+        "countryName": "Islas Vírgenes GB",
+        "code3Digits": "VGB"
+    },
+    {
+        "code2Digits": "VI",
+        "phonePrefix": "+1340",
+        "countryName": "Islas Vírgenes USA",
+        "code3Digits": "VIR"
+    },
+    {
+        "code2Digits": "IL",
+        "phonePrefix": "+972",
+        "countryName": "Israel",
+        "code3Digits": "ISR"
+    },
+    {
+        "code2Digits": "IT",
+        "phonePrefix": "+39",
+        "countryName": "Italia",
+        "code3Digits": "ITA"
+    },
+    {
+        "code2Digits": "JM",
+        "phonePrefix": "+1876",
+        "countryName": "Jamaica",
+        "code3Digits": "JAM"
+    },
+    {
+        "code2Digits": "JP",
+        "phonePrefix": "+81",
+        "countryName": "Japón",
+        "code3Digits": "JPN"
+    },
+    {
+        "code2Digits": "JE",
+        "phonePrefix": "+44",
+        "countryName": "Jersey",
+        "code3Digits": "JEY"
+    },
+    {
+        "code2Digits": "JO",
+        "phonePrefix": "+962",
+        "countryName": "Jordania",
+        "code3Digits": "JOR"
+    },
+    {
+        "code2Digits": "KZ",
+        "phonePrefix": "+7",
+        "countryName": "Kazajistán",
+        "code3Digits": "KAZ"
+    },
+    {
+        "code2Digits": "KE",
+        "phonePrefix": "",
+        "countryName": "Kenia",
+        "code3Digits": "KEN"
+    },
+    {
+        "code2Digits": "KG",
+        "phonePrefix": "+996",
+        "countryName": "Kirguizistán",
+        "code3Digits": "KGZ"
+    },
+    {
+        "code2Digits": "KI",
+        "phonePrefix": "+686",
+        "countryName": "Kiribati",
+        "code3Digits": "KIR"
+    },
+    {
+        "code2Digits": "KW",
+        "phonePrefix": "+965",
+        "countryName": "Kuwait",
+        "code3Digits": "KWT"
+    },
+    {
+        "code2Digits": "LA",
+        "phonePrefix": "+856",
+        "countryName": "Laos",
+        "code3Digits": "LAO"
+    },
+    {
+        "code2Digits": "LS",
+        "phonePrefix": "+266",
+        "countryName": "Lesoto",
+        "code3Digits": "LSO"
+    },
+    {
+        "code2Digits": "LV",
+        "phonePrefix": "+371",
+        "countryName": "Letonia",
+        "code3Digits": "LVA"
+    },
+    {
+        "code2Digits": "LB",
+        "phonePrefix": "+961",
+        "countryName": "Líbano",
+        "code3Digits": ""
+    },
+    {
+        "code2Digits": "LR",
+        "phonePrefix": "+231",
+        "countryName": "Liberia",
+        "code3Digits": "LBR"
+    },
+    {
+        "code2Digits": "LY",
+        "phonePrefix": "+218",
+        "countryName": "Libia",
+        "code3Digits": "LBY"
+    },
+    {
+        "code2Digits": "LI",
+        "phonePrefix": "+423",
+        "countryName": "Liechtenstein",
+        "code3Digits": "LIE"
+    },
+    {
+        "code2Digits": "LT",
+        "phonePrefix": "+370",
+        "countryName": "Lituania",
+        "code3Digits": "LTU"
+    },
+    {
+        "code2Digits": "LU",
+        "phonePrefix": "+352",
+        "countryName": "Luxemburgo",
+        "code3Digits": "LUX"
+    },
+    {
+        "code2Digits": "MO",
+        "phonePrefix": "+853",
+        "countryName": "Macao",
+        "code3Digits": "MAC"
+    },
+    {
+        "code2Digits": "MK",
+        "phonePrefix": "+389",
+        "countryName": "Macedonia",
+        "code3Digits": "MKD"
+    },
+    {
+        "code2Digits": "MG",
+        "phonePrefix": "+261",
+        "countryName": "Madagascar",
+        "code3Digits": "MDG"
+    },
+    {
+        "code2Digits": "MY",
+        "phonePrefix": "+60",
+        "countryName": "Malasia",
+        "code3Digits": "MYS"
+    },
+    {
+        "code2Digits": "MW",
+        "phonePrefix": "+265",
+        "countryName": "Malaui",
+        "code3Digits": "MWI"
+    },
+    {
+        "code2Digits": "MV",
+        "phonePrefix": "+960",
+        "countryName": "Maldivas",
+        "code3Digits": "MDV"
+    },
+    {
+        "code2Digits": "ML",
+        "phonePrefix": "+223",
+        "countryName": "Malí",
+        "code3Digits": "MLI"
+    },
+    {
+        "code2Digits": "MT",
+        "phonePrefix": "+356",
+        "countryName": "Malta",
+        "code3Digits": "MLT"
+    },
+    {
+        "code2Digits": "MA",
+        "phonePrefix": "+212",
+        "countryName": "Marruecos",
+        "code3Digits": "MAR"
+    },
+    {
+        "code2Digits": "MQ",
+        "phonePrefix": "+596",
+        "countryName": "Martinica",
+        "code3Digits": "MTQ"
+    },
+    {
+        "code2Digits": "MR",
+        "phonePrefix": "+222",
+        "countryName": "Mauritania",
+        "code3Digits": "MRT"
+    },
+    {
+        "code2Digits": "YT",
+        "phonePrefix": "+262",
+        "countryName": "Mayotte",
+        "code3Digits": "MYT"
+    },
+    {
+        "code2Digits": "MX",
+        "phonePrefix": "",
+        "countryName": "México",
+        "code3Digits": "MEX"
+    },
+    {
+        "code2Digits": "FM",
+        "phonePrefix": "+691",
+        "countryName": "Micronesia",
+        "code3Digits": "FSM"
+    },
+    {
+        "code2Digits": "MD",
+        "phonePrefix": "+373",
+        "countryName": "Moldavia",
+        "code3Digits": "MDA"
+    },
+    {
+        "code2Digits": "MC",
+        "phonePrefix": "+377",
+        "countryName": "Mónaco",
+        "code3Digits": "MCO"
+    },
+    {
+        "code2Digits": "MN",
+        "phonePrefix": "+976",
+        "countryName": "Mongolia",
+        "code3Digits": "MNG"
+    },
+    {
+        "code2Digits": "ME",
+        "phonePrefix": "+382",
+        "countryName": "Montenegro",
+        "code3Digits": "MNE"
+    },
+    {
+        "code2Digits": "MS",
+        "phonePrefix": "+1664",
+        "countryName": "Montserrat",
+        "code3Digits": "MSR"
+    },
+    {
+        "code2Digits": "MZ",
+        "phonePrefix": "+258",
+        "countryName": "Mozambique",
+        "code3Digits": "MOZ"
+    },
+    {
+        "code2Digits": "MM",
+        "phonePrefix": "+95",
+        "countryName": "Myanmar",
+        "code3Digits": "MMR"
+    },
+    {
+        "code2Digits": "NA",
+        "phonePrefix": "+264",
+        "countryName": "Namibia",
+        "code3Digits": "NAM"
+    },
+    {
+        "code2Digits": "NR",
+        "phonePrefix": "+674",
+        "countryName": "Nauru",
+        "code3Digits": "NRU"
+    },
+    {
+        "code2Digits": "NP",
+        "phonePrefix": "+977",
+        "countryName": "Nepal",
+        "code3Digits": "NPL"
+    },
+    {
+        "code2Digits": "NI",
+        "phonePrefix": "+505",
+        "countryName": "Nicaragua",
+        "code3Digits": "NIC"
+    },
+    {
+        "code2Digits": "NE",
+        "phonePrefix": "+227",
+        "countryName": "Níger",
+        "code3Digits": "NER"
+    },
+    {
+        "code2Digits": "NG",
+        "phonePrefix": "+234",
+        "countryName": "Nigeria",
+        "code3Digits": "NGA"
+    },
+    {
+        "code2Digits": "NO",
+        "phonePrefix": "+47",
+        "countryName": "Noruega",
+        "code3Digits": "NOR"
+    },
+    {
+        "code2Digits": "NC",
+        "phonePrefix": "+687",
+        "countryName": "Nueva Caledonia",
+        "code3Digits": "NCL"
+    },
+    {
+        "code2Digits": "NZ",
+        "phonePrefix": "+64",
+        "countryName": "Nueva Zelanda",
+        "code3Digits": "NZL"
+    },
+    {
+        "code2Digits": "OM",
+        "phonePrefix": "+968",
+        "countryName": "Omán",
+        "code3Digits": "OMN"
+    },
+    {
+        "code2Digits": "NL",
+        "phonePrefix": "+31",
+        "countryName": "Países Bajos",
+        "code3Digits": "NLD"
+    },
+    {
+        "code2Digits": "PK",
+        "phonePrefix": "+92",
+        "countryName": "Pakistán",
+        "code3Digits": "PAK"
+    },
+    {
+        "code2Digits": "PW",
+        "phonePrefix": "+680",
+        "countryName": "Palaos",
+        "code3Digits": "PLW"
+    },
+    {
+        "code2Digits": "PS",
+        "phonePrefix": "+970",
+        "countryName": "Palestina",
+        "code3Digits": "PSE"
+    },
+    {
+        "code2Digits": "PA",
+        "phonePrefix": "+507",
+        "countryName": "Panamá",
+        "code3Digits": "PAN"
+    },
+    {
+        "code2Digits": "PG",
+        "phonePrefix": "+675",
+        "countryName": "Papua Nueva Guinea",
+        "code3Digits": "PNG"
+    },
+    {
+        "code2Digits": "PY",
+        "phonePrefix": "+595",
+        "countryName": "Paraguay",
+        "code3Digits": "PRY"
+    },
+    {
+        "code2Digits": "PE",
+        "phonePrefix": "+51",
+        "countryName": "Perú",
+        "code3Digits": "PER"
+    },
+    {
+        "code2Digits": "PF",
+        "phonePrefix": "+689",
+        "countryName": "Polinesia Francesa",
+        "code3Digits": "PYF"
+    },
+    {
+        "code2Digits": "PL",
+        "phonePrefix": "+48",
+        "countryName": "Polonia",
+        "code3Digits": "POL"
+    },
+    {
+        "code2Digits": "PT",
+        "phonePrefix": "+351",
+        "countryName": "Portugal",
+        "code3Digits": "PRT"
+    },
+    {
+        "code2Digits": "PR",
+        "phonePrefix": "+1",
+        "countryName": "Puerto Rico",
+        "code3Digits": "PRI"
+    },
+    {
+        "code2Digits": "QA",
+        "phonePrefix": "+974",
+        "countryName": "Qatar",
+        "code3Digits": "QAT"
+    },
+    {
+        "code2Digits": "GB",
+        "phonePrefix": "+44",
+        "countryName": "Reino Unido",
+        "code3Digits": "GBR"
+    },
+    {
+        "code2Digits": "DO",
+        "phonePrefix": "+1",
+        "countryName": "República Dominicana",
+        "code3Digits": "DOM"
+    },
+    {
+        "code2Digits": "CF",
+        "phonePrefix": "+236",
+        "countryName": "República Centroafricana",
+        "code3Digits": "CAF"
+    },
+    {
+        "code2Digits": "CZ",
+        "phonePrefix": "+420",
+        "countryName": "República Checa",
+        "code3Digits": "CZE"
+    },
+    {
+        "code2Digits": "CG",
+        "phonePrefix": "+242",
+        "countryName": "República Congo",
+        "code3Digits": "COG"
+    },
+    {
+        "code2Digits": "CD",
+        "phonePrefix": "+243",
+        "countryName": "República Democrática Congo",
+        "code3Digits": ""
+    },
+    {
+        "code2Digits": "RE",
+        "phonePrefix": "+262",
+        "countryName": "Reunión",
+        "code3Digits": "REU"
+    },
+    {
+        "code2Digits": "RW",
+        "phonePrefix": "+250",
+        "countryName": "Ruanda",
+        "code3Digits": "RWA"
+    },
+    {
+        "code2Digits": "RO",
+        "phonePrefix": "+40",
+        "countryName": "Rumanía",
+        "code3Digits": "ROU"
+    },
+    {
+        "code2Digits": "KN",
+        "phonePrefix": "+1869",
+        "countryName": "San Cristóbal y Nieves",
+        "code3Digits": "KNA"
+    },
+    {
+        "code2Digits": "PM",
+        "phonePrefix": "+508",
+        "countryName": "San Pedro y Miquelón",
+        "code3Digits": "SPM"
+    },
+    {
+        "code2Digits": "ST",
+        "phonePrefix": "+239",
+        "countryName": "Santo Tomé y Príncipe",
+        "code3Digits": "STP"
+    },
+    {
+        "code2Digits": "EH",
+        "phonePrefix": "+212",
+        "countryName": "Sáhara occidental",
+        "code3Digits": "ESH"
+    },
+    {
+        "code2Digits": "AS",
+        "phonePrefix": "+1684",
+        "countryName": "Samoa americana",
+        "code3Digits": "ASM"
+    },
+    {
+        "code2Digits": "WS",
+        "phonePrefix": "+685",
+        "countryName": "Samoa Occidental",
+        "code3Digits": "WSM"
+    },
+    {
+        "code2Digits": "SM",
+        "phonePrefix": "+378",
+        "countryName": "San Marino",
+        "code3Digits": "SMR"
+    },
+    {
+        "code2Digits": "MF",
+        "phonePrefix": "+590",
+        "countryName": "San Martín",
+        "code3Digits": "MAF"
+    },
+    {
+        "code2Digits": "VC",
+        "phonePrefix": "+1784",
+        "countryName": "San Vicente",
+        "code3Digits": "VCT"
+    },
+    {
+        "code2Digits": "SH",
+        "phonePrefix": "",
+        "countryName": "Santa Helena",
+        "code3Digits": "SHN"
+    },
+    {
+        "code2Digits": "LC",
+        "phonePrefix": "+1758",
+        "countryName": "Santa Lucía",
+        "code3Digits": "LCA"
+    },
+    {
+        "code2Digits": "SN",
+        "phonePrefix": "+221",
+        "countryName": "Senegal",
+        "code3Digits": "SEN"
+    },
+    {
+        "code2Digits": "RS",
+        "phonePrefix": "+381",
+        "countryName": "Serbia",
+        "code3Digits": "SRB"
+    },
+    {
+        "code2Digits": "CS",
+        "phonePrefix": "",
+        "contryName": "Serbia/Montenegro",
+        "code3Digits": ""
+    },
+    {
+        "code2Digits": "SC",
+        "phonePrefix": "+248",
+        "countryName": "Seychelles",
+        "code3Digits": "SYC"
+    },
+    {
+        "code2Digits": "SL",
+        "phonePrefix": "+232",
+        "countryName": "Sierra Leona",
+        "code3Digits": "SLE"
+    },
+    {
+        "code2Digits": "SG",
+        "phonePrefix": "+65",
+        "countryName": "Singapur",
+        "code3Digits": "SGP"
+    },
+    {
+        "code2Digits": "SX",
+        "phonePrefix": "+1721",
+        "countryName": "Sint Maarten",
+        "code3Digits": "SXM"
+    },
+    {
+        "code2Digits": "SY",
+        "phonePrefix": "+963",
+        "countryName": "Siria",
+        "code3Digits": "SYR"
+    },
+    {
+        "code2Digits": "SO",
+        "phonePrefix": "+252",
+        "countryName": "Somalia",
+        "code3Digits": "SOM"
+    },
+    {
+        "code2Digits": "LK",
+        "phonePrefix": "+94",
+        "countryName": "Sri Lanka",
+        "code3Digits": "LKA"
+    },
+    {
+        "code2Digits": "SZ",
+        "phonePrefix": "",
+        "countryName": "Suazilandia",
+        "code3Digits": "SWZ"
+    },
+    {
+        "code2Digits": "ZA",
+        "phonePrefix": "+27",
+        "countryName": "Sudáfrica",
+        "code3Digits": "ZAF"
+    },
+    {
+        "code2Digits": "SD",
+        "phonePrefix": "+249",
+        "countryName": "Sudán",
+        "code3Digits": "SDN"
+    },
+    {
+        "code2Digits": "SS",
+        "phonePrefix": "+211",
+        "countryName": "Sudán del Sur",
+        "code3Digits": "SSD"
+    },
+    {
+        "code2Digits": "SE",
+        "phonePrefix": "+46",
+        "countryName": "Suecia",
+        "code3Digits": "SWE"
+    },
+    {
+        "code2Digits": "CH",
+        "phonePrefix": "+41",
+        "countryName": "Suiza",
+        "code3Digits": "CHE"
+    },
+    {
+        "code2Digits": "SR",
+        "phonePrefix": "+597",
+        "countryName": "Surinam",
+        "code3Digits": "SUR"
+    },
+    {
+        "code2Digits": "SJ",
+        "phonePrefix": "+47",
+        "countryName": "Svalbard",
+        "code3Digits": "SJM"
+    },
+    {
+        "code2Digits": "TH",
+        "phonePrefix": "+66",
+        "countryName": "Tailandia",
+        "code3Digits": "THA"
+    },
+    {
+        "code2Digits": "TW",
+        "phonePrefix": "+886",
+        "countryName": "Taiwan",
+        "code3Digits": "TWN"
+    },
+    {
+        "code2Digits": "TZ",
+        "phonePrefix": "+255",
+        "countryName": "Tanzania",
+        "code3Digits": "TZA"
+    },
+    {
+        "code2Digits": "TJ",
+        "phonePrefix": "+992",
+        "countryName": "Tayikistán",
+        "code3Digits": "TJK"
+    },
+    {
+        "code2Digits": "IO",
+        "phonePrefix": "+246",
+        "countryName": "Territorio Británico del Océano Índico",
+        "code3Digits": "IOT"
+    },
+    {
+        "code2Digits": "TL",
+        "phonePrefix": "+670",
+        "countryName": "Timor Oriental",
+        "code3Digits": "TLS"
+    },
+    {
+        "code2Digits": "TP",
+        "phonePrefix": "",
+        "countryName": "Timor oriental",
+        "code3Digits": ""
+    },
+    {
+        "code2Digits": "TG",
+        "phonePrefix": "+228",
+        "countryName": "Togo",
+        "code3Digits": "TGO"
+    },
+    {
+        "code2Digits": "TO",
+        "phonePrefix": "+676",
+        "countryName": "Tonga",
+        "code3Digits": "TON"
+    },
+    {
+        "code2Digits": "TT",
+        "phonePrefix": "+1868",
+        "countryName": "Trinidad y Tobago",
+        "code3Digits": "TTO"
+    },
+    {
+        "code2Digits": "TN",
+        "phonePrefix": "+216",
+        "countryName": "Túnez",
+        "code3Digits": "TUN"
+    },
+    {
+        "code2Digits": "TM",
+        "phonePrefix": "+993",
+        "countryName": "Turkmenistán",
+        "code3Digits": "TKM"
+    },
+    {
+        "code2Digits": "TR",
+        "phonePrefix": "+90",
+        "countryName": "Turquía",
+        "code3Digits": "TUR"
+    },
+    {
+        "code2Digits": "TV",
+        "phonePrefix": "+688",
+        "countryName": "Tuvalu",
+        "code3Digits": "TUV"
+    },
+    {
+        "code2Digits": "UA",
+        "phonePrefix": "+380",
+        "countryName": "Ucrania",
+        "code3Digits": "UKR"
+    },
+    {
+        "code2Digits": "UG",
+        "phonePrefix": "+256",
+        "countryName": "Uganda",
+        "code3Digits": "UGA"
+    },
+    {
+        "code2Digits": "UY",
+        "phonePrefix": "+598",
+        "countryName": "Uruguay",
+        "code3Digits": "URY"
+    },
+    {
+        "code2Digits": "UZ",
+        "phonePrefix": "+998",
+        "countryName": "Uzbekistán",
+        "code3Digits": "UZB"
+    },
+    {
+        "code2Digits": "VU",
+        "phonePrefix": "+678",
+        "countryName": "Vanuatu",
+        "code3Digits": "VUT"
+    },
+    {
+        "code2Digits": "VE",
+        "phonePrefix": "",
+        "countryName": "Venezuela",
+        "code3Digits": "VEN"
+    },
+    {
+        "code2Digits": "VN",
+        "phonePrefix": "+84",
+        "countryName": "Vietnam",
+        "code3Digits": "VNM"
+    },
+    {
+        "code2Digits": "WF",
+        "phonePrefix": "+681",
+        "countryName": "Wallis y Futuna",
+        "code3Digits": "WLF"
+    },
+    {
+        "code2Digits": "YE",
+        "phonePrefix": "+967",
+        "countryName": "Yemen",
+        "code3Digits": "YEM"
+    },
+    {
+        "code2Digits": "DJ",
+        "phonePrefix": "+253",
+        "countryName": "Yibuti",
+        "code3Digits": "DJ"
+    },
+    {
+        "code2Digits": "ZM",
+        "phonePrefix": "+260",
+        "countryName": "Zambia",
+        "code3Digits": "ZMB"
+    },
+    {
+        "code2Digits": "ZW",
+        "phonePrefix": "+263",
+        "countryName": "Zimbabue",
+        "code3Digits": "ZWE"
+    }
+]
