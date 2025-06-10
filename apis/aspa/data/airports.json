@@ -1,6 +1,6 @@
 {
   "avisoLogin": {
-    "isAvisoActivo": false,
+    "isAvisoActivo": true,
     "tituloAviso_ES": "Aviso: 20/06/2023 03:00",
     "tituloAviso_EN": "Alert: 20/06/2023 03:00",
     "tituloAviso_CA": "AvÃ­s: 20/06/2023 03:00",
