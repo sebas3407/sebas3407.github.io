@@ -18,11 +18,11 @@
             "id": "1",
             "serviceType": "PMR",
             "serviceName": {
-                "es_ES": "Asistencia PMR",
-                "en_GB": "PRM assistance",
-                "ca_ES": "AssistÃ¨ncia PMR",
-                "eu_ES": "PMR laguntza",
-                "gl_ES": "Asistencia PMR"
+                "es_ES": "Asistencia Sin Barreras",
+                "en_GB": "Barrier Free assistance",
+                "ca_ES": "AssistÃ¨ncia Sense Barreres",
+                "eu_ES": "Oztoporik Ez laguntza",
+                "gl_ES": "Asistencia Sen Barreiras"
             },
             "iconoName": "ic_servicios_asistencia_pmr",
             "iconoName90degree": "ic_servicios_asistencia_pmr_90_degree",
@@ -120,11 +120,11 @@
             "id": "7",
             "serviceType": "FAST_LANE",
             "serviceName": {
-                "es_ES": "Fast Track / Lane",
-                "en_GB": "Fast Track / Fast Lane",
-                "ca_ES": "FAST TRACK / FAST LANE",
-                "eu_ES": "FAST TRACK / FAST LANE",
-                "gl_ES": "FAST TRACK / FAST LANE"
+                "es_ES": "Fast Lane / Fast Track",
+                "en_GB": "Fast Lane / Fast Track",
+                "ca_ES": "Fast Lane / Fast Track",
+                "eu_ES": "Fast Lane / Fast Track",
+                "gl_ES": "Fast Lane / Fast Track"
             },
             "iconoName": "ic_servicios_fastlane",
             "iconoName90degree": "ic_servicios_fastlane_90_degree",
@@ -217,6 +217,23 @@
             "isVipService": true,
             "isAenaMarket": false,
             "priorityMisViajes": null
+        },
+        {
+            "id": "13",
+            "serviceType": "PETPASS",
+            "serviceName": {
+                "es_ES": "Mascotas",
+                "en_GB": "Pets",
+                "ca_ES": "Mascotes",
+                "eu_ES": "Maskotak",
+                "gl_ES": "Mascotas"
+            },
+            "iconoName": "ic_servicios_petpass",
+            "iconoName90degree": "ic_servicios_petpass_90_degree",
+            "iconoNameCircle": "ic_servicios_petpass_circle",
+            "isVipService": false,
+            "isAenaMarket": false,
+            "priorityMisViajes": 6
         }
     ],
     "airportsVentures": [
@@ -1229,6 +1246,30 @@
             ]
         },
         {
+            "airportCode": "ODB",
+            "listVentures": [
+                {
+                    "type": "CHATBOT",
+                    "title": {
+                        "en_GB": "Chatbot",
+                        "es_ES": "Chatbot",
+                        "ca_ES": "Xatbot",
+                        "eu_ES": "Chatbotak",
+                        "gl_ES": "Chatbot"
+                    },
+                    "description": {
+                        "en_GB": "Our chatbot helps you solve your doubts quickly and easily",
+                        "es_ES": "Nuestro chatbot te ayuda a resolver tus dudas de forma rÃ¡pida y sencilla",
+                        "ca_ES": "El nostre xatbot tâ€™ajuda a resoldre els teus dubtes de manera rÃ pida i senzilla",
+                        "eu_ES": "Gure chatbotak zure zalantzak azkar eta erraz argitzen laguntzen dizu",
+                        "gl_ES": "O noso chatbot axÃºdache a resolver as tÃºas dÃºbidas de forma rÃ¡pida e sinxela"
+                    },
+                    "link": null,
+                    "imageLink": null
+                }
+            ]
+        },
+        {
             "airportCode": "",
             "listVentures": [
                 {
@@ -1506,7 +1547,8 @@
                         "eu_ES": "T1 terminala",
                         "gl_ES": "Terminal T1"
                     },
-                    "TERMINAL_SHORT_NAME": "T1"
+                    "TERMINAL_SHORT_NAME": "T1",
+                    "TERMINAL_SHORT_NAME_PARKING": "T1"
                 },
                 {
                     "LATITUDE": 40.468,
@@ -1520,21 +1562,8 @@
                         "eu_ES": "T2 terminala",
                         "gl_ES": "Terminal T2"
                     },
-                    "TERMINAL_SHORT_NAME": "T2"
-                },
-                {
-                    "LATITUDE": 40.471,
-                    "LONGITUDE": -3.571,
-                    "RESERVA_PARKING": true,
-                    "TERMINAL_ID": "T3",
-                    "TERMINAL_NAME": {
-                        "en_GB": "Terminal T3",
-                        "es_ES": "Terminal T3",
-                        "ca_ES": "Terminal T3",
-                        "eu_ES": "T3 terminala",
-                        "gl_ES": "Terminal T3"
-                    },
-                    "TERMINAL_SHORT_NAME": "T3"
+                    "TERMINAL_SHORT_NAME": "T2",
+                    "TERMINAL_SHORT_NAME_PARKING": "T2-T3"
                 },
                 {
                     "LATITUDE": 40.492,
@@ -1548,7 +1577,23 @@
                         "eu_ES": "T4 terminala",
                         "gl_ES": "Terminal T4"
                     },
-                    "TERMINAL_SHORT_NAME": "T4"
+                    "TERMINAL_SHORT_NAME": "T4",
+                    "TERMINAL_SHORT_NAME_PARKING": "T4"
+                },
+                {
+                    "LATITUDE": 40.471,
+                    "LONGITUDE": -3.571,
+                    "RESERVA_PARKING": true,
+                    "TERMINAL_ID": "T3",
+                    "TERMINAL_NAME": {
+                        "en_GB": "Terminal MOTOS",
+                        "es_ES": "Terminal MOTOS",
+                        "ca_ES": "Terminal MOTOS",
+                        "eu_ES": "MOTOS terminala",
+                        "gl_ES": "Terminal MOTOS"
+                    },
+                    "TERMINAL_SHORT_NAME": "T3",
+                    "TERMINAL_SHORT_NAME_PARKING": "MOTOS"
                 },
                 {
                     "LATITUDE": 40.494,
@@ -1948,7 +1993,7 @@
                     "idService": "7",
                     "isEnabled": true,
                     "isBlocking": false
-                }				
+                }
             ],
             "misViajesServicesConfig": {
                 "groupByVipServices": false,
@@ -2193,7 +2238,13 @@
             "AIRPORT_NAME": "CÃ©sar Manrique-Lanzarote",
             "AIRPORT_OACI": "GCRR",
             "HIGH_TRAFFIC_AIRPORT": false,
-            "MEET_AND_ASSIST": null,
+            "MEET_AND_ASSIST": {
+                "en_GB": "https://serviciosvipqa.aena-aeropuertos.es/vip/en/aeropuertos/lanzarote/servicios-asistencia-pasajeros/meet-and-assist",
+                "es_ES": "https://serviciosvipqa.aena-aeropuertos.es/vip/es/aeropuertos/lanzarote/servicios-asistencia-pasajeros/meet-and-assist",
+                "ca_ES": "https://serviciosvipqa.aena-aeropuertos.es/vip/es/aeropuertos/lanzarote/servicios-asistencia-pasajeros/meet-and-assist",
+                "eu_ES": "https://serviciosvipqa.aena-aeropuertos.es/vip/es/aeropuertos/lanzarote/servicios-asistencia-pasajeros/meet-and-assist",
+                "gl_ES": "https://serviciosvipqa.aena-aeropuertos.es/vip/es/aeropuertos/lanzarote/servicios-asistencia-pasajeros/meet-and-assist"
+            },
             "PERSONAL_SHOPPER": null,
             "KM_RANGE": 30,
             "PARKING_PAYMENT": false,
@@ -2203,7 +2254,7 @@
             "admitETKT": null,
             "electricSuplementPPM": false,
             "mapWithGeo": true,
-            "AIRPORT_SERVICE_TYPE": 2,
+            "AIRPORT_SERVICE_TYPE": 3,
             "BIOMETRIC_DYNAMIC_INFO": null,
             "BIOMETRIC_FLIGHTS": null,
             "airportServices": [
@@ -2228,6 +2279,18 @@
                 {
                     "id": "4",
                     "idService": "1",
+                    "isEnabled": true,
+                    "isBlocking": false
+                },
+                {
+                    "id": "5",
+                    "idService": "7",
+                    "isEnabled": true,
+                    "isBlocking": false
+                },
+                {
+                    "id": "6",
+                    "idService": "8",
                     "isEnabled": true,
                     "isBlocking": false
                 }
@@ -2946,6 +3009,12 @@
                     "idService": "10",
                     "isEnabled": true,
                     "isBlocking": false
+                },
+                {
+                    "id": "8",
+                    "idService": "4",
+                    "isEnabled": true,
+                    "isBlocking": false
                 }
             ],
             "misViajesServicesConfig": {
@@ -3203,6 +3272,21 @@
                         "gl_ES": "Terminal T2"
                     },
                     "TERMINAL_SHORT_NAME": "T2",
+                    "FAST_LANE_QUOTA": false
+                },
+                {
+                    "LATITUDE": 41.28748614600411,
+                    "LONGITUDE": 2.069213932121828,
+                    "RESERVA_PARKING": true,
+                    "TERMINAL_ID": "T4",
+                    "TERMINAL_NAME": {
+                        "en_GB": "Terminal T1 MOTOS",
+                        "es_ES": "Terminal T1 MOTOS",
+                        "ca_ES": "Terminal T1 MOTOS",
+                        "eu_ES": "T1 MOTOS Terminal",
+                        "gl_ES": "Terminal T1 MOTOS"
+                    },
+                    "TERMINAL_SHORT_NAME": "T1 MOTOS",
                     "FAST_LANE_QUOTA": false
                 }
             ]
@@ -4269,7 +4353,7 @@
             "admitETKT": null,
             "electricSuplementPPM": false,
             "mapWithGeo": true,
-            "AIRPORT_SERVICE_TYPE": 2,
+            "AIRPORT_SERVICE_TYPE": 3,
             "BIOMETRIC_DYNAMIC_INFO": null,
             "BIOMETRIC_FLIGHTS": null,
             "airportServices": [
@@ -4294,6 +4378,12 @@
                 {
                     "id": "4",
                     "idService": "1",
+                    "isEnabled": true,
+                    "isBlocking": false
+                },
+                {
+                    "id": "5",
+                    "idService": "7",
                     "isEnabled": true,
                     "isBlocking": false
                 }
