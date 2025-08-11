@@ -1524,6 +1524,12 @@
                     "idService": "10",
                     "isEnabled": true,
                     "isBlocking": false
+                },
+                {
+                    "id": "11",
+                    "idService": "13",
+                    "isEnabled": true,
+                    "isBlocking": false
                 }
             ],
             "misViajesServicesConfig": {
