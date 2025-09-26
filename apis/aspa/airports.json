@@ -222,11 +222,11 @@
             "id": "13",
             "serviceType": "PETPASS",
             "serviceName": {
-                "es_ES": "Mascotas",
-                "en_GB": "Pets",
-                "ca_ES": "Mascotes",
-                "eu_ES": "Maskotak",
-                "gl_ES": "Mascotas"
+                "es_ES": "Aena Pets",
+                "en_GB": "Aena Pets",
+                "ca_ES": "Aena Pets",
+                "eu_ES": "Aena Pets",
+                "gl_ES": "Aena Pets"
             },
             "iconoName": "ic_servicios_petpass",
             "iconoName90degree": "ic_servicios_petpass_90_degree",
